@@ -31,8 +31,10 @@ namespace GetPoisFromWeibo
         public static string PASSWORD = "1qaz2wsx";
         public static string ACCESSTOKEN = "2.00cGubtBnnnYoB2bfed4dc640UADXc";
         public static Client SINA = null;
+        public static StreamWriter streamWriter = null;
         public static void Run()
         {
+            streamWriter = new StreamWriter(@"../../" + "/output" + "//log.txt", false);
             InitWeiboOAuth();
             List<Scenic> scenicList = ReadXml();
             int count = 0;
@@ -41,14 +43,18 @@ namespace GetPoisFromWeibo
                 foreach (Scenic scenic in scenicList)
                 {
                     count++;
-                    if (count > 10)
+                    if (count > 70)
                     {
                         break;
+                    } if (count > 50)
+                    {
+                        GetPoisFromWeibo(scenic.Lng, scenic.Lat, scenic.Title);
                     }
-                    GetPoisFromWeibo(scenic.Lng, scenic.Lat, scenic.Title);
                 }
             }
-
+            streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : finish!!!!");
+            streamWriter.Close();
+            Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : finish!!!!");
         }
         /// <summary>
         /// 初始化Weibo
@@ -61,6 +67,7 @@ namespace GetPoisFromWeibo
             {
                 SINA = new NetDimension.Weibo.Client(OAUTH);
                 Console.WriteLine(OAUTH.AccessToken); //还是来打印下AccessToken看看与前面方式获取的是不是一样的
+                streamWriter.WriteLine(OAUTH.AccessToken);
             }
             else
             {
@@ -70,6 +77,7 @@ namespace GetPoisFromWeibo
                 {
                     SINA = new NetDimension.Weibo.Client(OAUTH);
                     Console.WriteLine(OAUTH.AccessToken); //还是来打印下AccessToken看看与前面方式获取的是不是一样的
+                    streamWriter.WriteLine(OAUTH.AccessToken);
                 }
             }
         }
@@ -102,11 +110,13 @@ namespace GetPoisFromWeibo
                     }
                 }
                 File.WriteAllText(@"../../" + "/output" + "//" + scenicname + ".json", JsonConvert.SerializeObject(scenicList));
-                Console.WriteLine(scenicname + " : " + scenicList.Count);
+                Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : " + scenicname + " " + scenicList.Count);
+                streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : " + scenicname + " " + scenicList.Count);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error: " + scenicname + ex.ToString());
+                Console.WriteLine("Error " + DateTime.Now.ToLocalTime().ToString() + ":" + scenicname + ex.ToString());
+                streamWriter.WriteLine("Error " + DateTime.Now.ToLocalTime().ToString() + ":" + scenicname + ex.ToString());
             }
         }
 
@@ -115,7 +125,7 @@ namespace GetPoisFromWeibo
             dynamic json = SINA.GetCommand("place/nearby/pois",
                 new WeiboParameter("lat", lat),
                 new WeiboParameter("long", lng),
-                new WeiboParameter("range", 5000),
+                new WeiboParameter("range", 2000),
                 new WeiboParameter("q", ""),
                 new WeiboParameter("category", ""),
                 new WeiboParameter("count", 50),
@@ -150,6 +160,7 @@ namespace GetPoisFromWeibo
                 scenicList.Add(scenic);
             }
             Console.WriteLine("data_with_location_2: " + scenicList.Count);
+            streamWriter.WriteLine("data_with_location_2: " + scenicList.Count);
             return scenicList;
         }
     }
