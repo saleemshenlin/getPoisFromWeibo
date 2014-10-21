@@ -1,0 +1,8 @@
+D:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\bin\Debug\GetPoisFromWeibo.exe
+D:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\bin\Debug\GetPoisFromWeibo.pdb
+D:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\bin\Debug\NetDimension.Weibo.dll
+D:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\bin\Debug\NetDimension.Weibo.pdb
+D:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\bin\Debug\NetDimension.Weibo.xml
+D:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\obj\Debug\GetPoisFromWeibo.csprojResolveAssemblyReference.cache
+D:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\obj\Debug\GetPoisFromWeibo.exe
+D:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\obj\Debug\GetPoisFromWeibo.pdb
