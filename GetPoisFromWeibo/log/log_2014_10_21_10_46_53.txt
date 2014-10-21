@@ -1,0 +1,139 @@
+2.00cGubtBnnnYoB2bfed4dc640UADXc
+data_with_location_2: 3096
+Error 2014-10-21 22:46:54:大华行知公园NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:46:54:大华秦森休闲广场NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:46:59:大境阁NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:00:大境关帝庙NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:00:大连路绿地NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:00:大漠商务温泉(三元路店)NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:00:大拇指岛NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:00:大宁剧院NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:01:大宁灵石公园NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:01:大千生态庄园NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:01:大清邮局NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:02:大三林城市规划展示馆NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:03:大上海会德丰广场NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:03:大世界NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:04:大世界游乐城NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:10:大田路天主堂NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:13:大同幼稚园旧址NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:15:大同中学NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:47:41:大团桃园NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:48:40:大星文化公园NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:49:18:大洋海底世界NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:49:32:大悦城NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 132
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 94
+Error 2014-10-21 22:49:50:大栅栏NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(

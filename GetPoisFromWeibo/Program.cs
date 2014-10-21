@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Timers;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Xml.XPath;
@@ -34,7 +35,9 @@ namespace GetPoisFromWeibo
         public static StreamWriter streamWriter = null;
         public static void Run()
         {
-            streamWriter = new StreamWriter(@"../../" + "/output" + "//log.txt", false);
+            string dateNow = DateTime.Now.ToString("yyyy_MM_dd");
+            string timeNow = DateTime.Now.ToString("_hh_mm_ss");
+            streamWriter = new StreamWriter(@"../../" + "/log" + "//log_" + dateNow + timeNow + ".txt", false);
             InitWeiboOAuth();
             List<Scenic> scenicList = ReadXml();
             int count = 0;
@@ -43,10 +46,11 @@ namespace GetPoisFromWeibo
                 foreach (Scenic scenic in scenicList)
                 {
                     count++;
-                    if (count > 70)
+                    if (count > 720)
                     {
                         break;
-                    } if (count > 50)
+                    } 
+                    if (count >= 695)
                     {
                         GetPoisFromWeibo(scenic.Lng, scenic.Lat, scenic.Title);
                     }
@@ -96,29 +100,41 @@ namespace GetPoisFromWeibo
                     totalNumber = int.Parse(jo["total_number"].ToString());
                     string pois = jo["pois"].ToString();
                     scenicList = JsonConvert.DeserializeObject<List<Scenic>>(pois);
-                }
-                if (totalNumber > 50)
-                {
-                    double pageCount = Math.Ceiling(totalNumber / itemsNumber);
-                    for (int i = 2; i <= pageCount; i++)
+                    if (totalNumber > 50)
                     {
-                        string jsonMore = GetNearByPoisComm(float.Parse(lng), float.Parse(lat), i);
-                        JObject jsonMoreO = (JObject)JsonConvert.DeserializeObject(jsonMore);
-                        string pois = jsonMoreO["pois"].ToString();
-                        IList<Scenic> scenicListMore = JsonConvert.DeserializeObject<List<Scenic>>(pois);
-                        scenicList.AddRange(scenicListMore);
+                        double pageCount = Math.Ceiling(totalNumber / itemsNumber);
+                        for (int i = 2; i <= pageCount; i++)
+                        {
+                            string jsonMore = GetNearByPoisComm(float.Parse(lng), float.Parse(lat), i);
+                            JObject jsonMoreO = (JObject)JsonConvert.DeserializeObject(jsonMore);
+                            string poisMore = jsonMoreO["pois"].ToString();
+                            IList<Scenic> scenicListMore = JsonConvert.DeserializeObject<List<Scenic>>(pois);
+                            scenicList.AddRange(scenicListMore);
+                        }
                     }
+                    File.WriteAllText(@"../../" + "/output" + "//" + scenicname + ".json", JsonConvert.SerializeObject(scenicList));
+                    Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : " + scenicname + " " + scenicList.Count);
+                    streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : " + scenicname + " " + scenicList.Count);
                 }
-                File.WriteAllText(@"../../" + "/output" + "//" + scenicname + ".json", JsonConvert.SerializeObject(scenicList));
-                Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : " + scenicname + " " + scenicList.Count);
-                streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : " + scenicname + " " + scenicList.Count);
+
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error " + DateTime.Now.ToLocalTime().ToString() + ":" + scenicname + ex.ToString());
-                streamWriter.WriteLine("Error " + DateTime.Now.ToLocalTime().ToString() + ":" + scenicname + ex.ToString());
+                if (ex.Message.Equals("用户请求超过上限"))
+                {
+                    Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + ": 程序暂停..." + scenicname);
+                    System.Threading.Thread.Sleep(600000);
+                    Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + ": 程序继续..." + scenicname);
+                    GetPoisFromWeibo(lng, lat, scenicname);
+                }
+                else
+                {
+                    Console.WriteLine("Error " + DateTime.Now.ToLocalTime().ToString() + ":" + scenicname + ex.Message.ToString());
+                    streamWriter.WriteLine("Error " + DateTime.Now.ToLocalTime().ToString() + ":" + scenicname + ex.Message.ToString());
+                }
             }
         }
+
 
         private static string GetNearByPoisComm(float lng, float lat, int page)
         {

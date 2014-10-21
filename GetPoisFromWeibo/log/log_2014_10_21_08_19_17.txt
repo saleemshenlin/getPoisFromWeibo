@@ -1,0 +1,19 @@
+2.00cGubtBnnnYoB2bfed4dc640UADXc
+data_with_location_2: 3096
+2014-10-21 20:19:20 : 北欧风情街 121
+2014-10-21 20:19:20 : 北宋战斗抗日时期烈士纪念碑 2
+2014-10-21 20:19:22 : 北外滩 140
+2014-10-21 20:19:24 : 北外滩滨江绿地 161
+2014-10-21 20:19:25 : 北王寺 123
+2014-10-21 20:19:27 : 北新泾地铁站 179
+2014-10-21 20:19:29 : 北新泾运动中心 167
+2014-10-21 20:19:31 : 贝乐赢儿童快乐运动馆 164
+2014-10-21 20:19:34 : 比利时使领馆 203
+2014-10-21 20:19:37 : 笔墨博物馆 202
+Error 2014-10-21 20:19:38:皕灵楼NetDimension.Weibo.WeiboException: 用户请求超过上限
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.GetCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 91
+   在 GetPoisFromWeibo.Work.GetNearByPoisComm(Single lng, Single lat, Int32 page) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 127
+   在 GetPoisFromWeibo.Work.GetPoisFromWeibo(String lng, String lat, String scenicname) 位置 e:\github\getPoisFromWeibo\GetPoisFromWeibo\Program.cs:行号 107
+2014-10-21 20:19:38 : finish!!!!
