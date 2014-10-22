@@ -46,11 +46,11 @@ namespace GetPoisFromWeibo
                 foreach (Scenic scenic in scenicList)
                 {
                     count++;
-                    if (count > 720)
-                    {
-                        break;
-                    } 
-                    if (count >= 695)
+                    //if (count > 800)
+                    //{
+                    //    break;
+                    //} 
+                    if (count >= 793)
                     {
                         GetPoisFromWeibo(scenic.Lng, scenic.Lat, scenic.Title);
                     }
