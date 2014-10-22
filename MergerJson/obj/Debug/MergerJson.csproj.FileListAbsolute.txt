@@ -10,3 +10,9 @@ D:\gitHub\getPoisFromWeibo\MergerJson\obj\Debug\MergerJson.pdb
 E:\github\getPoisFromWeibo\MergerJson\bin\Debug\MergerJson.exe.config
 E:\github\getPoisFromWeibo\MergerJson\obj\Debug\MergerJson.exe
 E:\github\getPoisFromWeibo\MergerJson\obj\Debug\MergerJson.pdb
+E:\github\getPoisFromWeibo\MergerJson\obj\Debug\MergerJson.csprojResolveAssemblyReference.cache
+E:\github\getPoisFromWeibo\MergerJson\bin\Debug\MergerJson.exe
+E:\github\getPoisFromWeibo\MergerJson\bin\Debug\MergerJson.pdb
+E:\github\getPoisFromWeibo\MergerJson\bin\Debug\NetDimension.Weibo.dll
+E:\github\getPoisFromWeibo\MergerJson\bin\Debug\NetDimension.Weibo.pdb
+E:\github\getPoisFromWeibo\MergerJson\bin\Debug\NetDimension.Weibo.xml

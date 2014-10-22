@@ -40,6 +40,7 @@ namespace MergerJson
         {
             DirectoryInfo rootDir = new DirectoryInfo(@"../../" + "input");
             JArray jaAll = new JArray();
+            List<string> poiIdList = new List<string>();
             try
             {
                 //遍历文件
@@ -53,14 +54,14 @@ namespace MergerJson
                         if (jaAll.Count == 0)
                         {
                             jaAll.Add(joTemp);
+                            poiIdList.Add(joTemp["poiid"].ToString());
                         }
-                        foreach(JObject jo in jaAll){
-                            if(joTemp["poiid"].ToString().Equals(jo["poiid"].ToString())){
-                                streamWriter.WriteLine("Scenic: " + DateTime.Now.ToLocalTime().ToString() + " ; " + joTemp["title"].ToString());
-                                Console.WriteLine("Scenic: " + DateTime.Now.ToLocalTime().ToString() + " ; " + joTemp["title"].ToString());
-                                break;
-                            }else{
+                        else
+                        {
+                            if(!poiIdList.Contains(joTemp["poiid"].ToString()))
+                            {
                                 jaAll.Add(joTemp);
+                                poiIdList.Add(joTemp["poiid"].ToString());
                             }
                         }
                     }
