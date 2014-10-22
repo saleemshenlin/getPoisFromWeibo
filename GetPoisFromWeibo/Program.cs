@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Timers;
 using System.Xml;
 using System.Xml.Serialization;
@@ -46,18 +47,47 @@ namespace GetPoisFromWeibo
             streamWriter = new StreamWriter(@"../../" + "/log" + "//log_" + dateNow + timeNow + ".txt", false);
             InitWeiboOAuth(APPKEY_3, APPSECRET_3, ACCESSTOKEN_3);
             List<Scenic> scenicList = ReadXml();
-            int count = 0;
-            if (scenicList.Count > 0)
-            {
-                foreach (Scenic scenic in scenicList)
-                {
-                    count++;
-                    if (count >= 3058)
-                    {
-                        GetPoisFromWeibo(scenic.Lng, scenic.Lat, scenic.Title);
-                    }
-                }
-            }
+            //List<string> fileList = new List<string>();
+            //DirectoryInfo rootDir = new DirectoryInfo(@"../../" + "output");
+            //foreach (FileInfo file in rootDir.GetFiles("*.*"))
+            //{
+            //    string[] sArray = Regex.Split(file.ToString(), ".json", RegexOptions.IgnoreCase);
+            //    fileList.Add(sArray[0]);
+            //}
+
+            //if (scenicList.Count > 0)
+            //{
+            //    foreach (string fileName in fileList)
+            //    {
+
+            //        //int count = 0;
+            //        foreach (Scenic scenic in scenicList)
+            //        {
+            //            if (fileName == scenic.Title)
+            //            {
+            //                scenicList.Remove(scenicList.Where(c => c.Title == fileName).FirstOrDefault());
+            //                break;
+            //            }
+            //        }
+            //        //if (count != 0)
+            //        //{
+            //        //    //streamWriter.WriteLine("ScenicTrue: " + DateTime.Now.ToLocalTime().ToString() + " ; " + scenic.Title + " ; " + scenic.Lat + " ; " + scenic.Lng);
+            //        //    streamWriter.WriteLine(count);
+            //        //    Console.WriteLine("ScenicTrue: " + DateTime.Now.ToLocalTime().ToString() + " ; " + scenic.Title + " ; " + scenic.Lat + " ; " + scenic.Lng);
+            //        //}
+            //        //else
+            //        //{
+            //        //    streamWriter.WriteLine("Scenic: " + DateTime.Now.ToLocalTime().ToString() + " ; " + scenic.Title + " ; " + scenic.Lat + " ; " + scenic.Lng);
+            //        //    Console.WriteLine("Scenic: " + DateTime.Now.ToLocalTime().ToString() + " ; " + scenic.Title + " ; " + scenic.Lat + " ; " + scenic.Lng);
+            //        //}
+
+            //    }
+            //}
+            //foreach (Scenic scenic in scenicList)
+            //{
+            //    streamWriter.WriteLine("ScenicTrue: " + DateTime.Now.ToLocalTime().ToString() + " ; " + "\" , \"" + scenic.Lng + "\" , \"" + scenic.Lat + "\" , \"" + scenic.Title + "\"");
+            //}
+            GetPoisFromWeibo("121.454076", "31.231089", "张爱玲故居");
             streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : finish!!!!");
             streamWriter.Close();
             Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : finish!!!!");
