@@ -26,3 +26,4 @@ SINA.GetCommand("place/nearby/pois",
 
 针对 150次/小时 请求，还需要修改bug
 
+已经修复bug，当遇到用户请求上限，程序暂停10min，在运行
