@@ -24,13 +24,19 @@ namespace GetPoisFromWeibo
 
     class Work
     {
-        public static string APPKEY = "1663244227";
-        public static string APPSECRET = "5cedafd36f790630c49775d7e56e741a";
+        public static string APPKEY_3 = "3745111922"; //1654060665 1663244227 
+        public static string APPSECRET_3 = "8bb53cfe8d623fb1001d7c990b88f168"; //9b337ffd48099b2b94eecb568b65d1dc 5cedafd36f790630c49775d7e56e741a
+        public static string ACCESSTOKEN_3 = "2.00cGubtBAhG9FEcf2f744601CkyoTB"; //2.00cGubtBpjQwnB65f4b0d1ccTNVbME 2.00cGubtBnnnYoB2bfed4dc640UADXc
         public static string RETURNURL = "https://api.weibo.com/oauth2/default.html";
         public static OAuth OAUTH;
         public static string WEIBO_NAME = "saleemshenlin@gmail.com";
         public static string PASSWORD = "1qaz2wsx";
-        public static string ACCESSTOKEN = "2.00cGubtBnnnYoB2bfed4dc640UADXc";
+        public static string APPKEY_2 = "1654060665"; //1654060665 1663244227 
+        public static string APPSECRET_2 = "9b337ffd48099b2b94eecb568b65d1dc"; //9b337ffd48099b2b94eecb568b65d1dc 5cedafd36f790630c49775d7e56e741a
+        public static string ACCESSTOKEN_2 = "2.00cGubtBpjQwnB65f4b0d1ccTNVbME"; // 2.00cGubtBnnnYoB2bfed4dc640UADXc
+        public static string APPKEY_1 = "1663244227"; //1654060665 1663244227 
+        public static string APPSECRET_1 = "5cedafd36f790630c49775d7e56e741a"; //9b337ffd48099b2b94eecb568b65d1dc 5cedafd36f790630c49775d7e56e741a
+        public static string ACCESSTOKEN_1 = "2.00cGubtBnnnYoB2bfed4dc640UADXc"; // 2.00cGubtBnnnYoB2bfed4dc640UADXc
         public static Client SINA = null;
         public static StreamWriter streamWriter = null;
         public static void Run()
@@ -38,7 +44,7 @@ namespace GetPoisFromWeibo
             string dateNow = DateTime.Now.ToString("yyyy_MM_dd");
             string timeNow = DateTime.Now.ToString("_hh_mm_ss");
             streamWriter = new StreamWriter(@"../../" + "/log" + "//log_" + dateNow + timeNow + ".txt", false);
-            InitWeiboOAuth();
+            InitWeiboOAuth(APPKEY_3, APPSECRET_3, ACCESSTOKEN_3);
             List<Scenic> scenicList = ReadXml();
             int count = 0;
             if (scenicList.Count > 0)
@@ -46,11 +52,7 @@ namespace GetPoisFromWeibo
                 foreach (Scenic scenic in scenicList)
                 {
                     count++;
-                    //if (count > 800)
-                    //{
-                    //    break;
-                    //} 
-                    if (count >= 861)
+                    if (count >= 3058)
                     {
                         GetPoisFromWeibo(scenic.Lng, scenic.Lat, scenic.Title);
                     }
@@ -64,7 +66,7 @@ namespace GetPoisFromWeibo
         /// 初始化Weibo
         /// </summary>
         /// <returns></returns>
-        private static void InitWeiboOAuth()
+        private static void InitWeiboOAuth(string APPKEY, string APPSECRET, string ACCESSTOKEN)
         {
             OAUTH = new OAuth(APPKEY, APPSECRET, RETURNURL, ACCESSTOKEN);
             if (OAUTH.VerifierAccessToken() == TokenResult.Success)//验证AccessToken是否有效
