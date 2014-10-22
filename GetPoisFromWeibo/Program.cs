@@ -50,7 +50,7 @@ namespace GetPoisFromWeibo
                     //{
                     //    break;
                     //} 
-                    if (count >= 793)
+                    if (count >= 828)
                     {
                         GetPoisFromWeibo(scenic.Lng, scenic.Lat, scenic.Title);
                     }
