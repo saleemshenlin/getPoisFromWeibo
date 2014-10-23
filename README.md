@@ -27,3 +27,8 @@ SINA.GetCommand("place/nearby/pois",
 针对 150次/小时 请求，还需要修改bug
 
 已经修复bug，当遇到用户请求上限，程序暂停10min，在运行
+
+MergerJson用于整合Json数据
+
+调用https://api.weibo.com/2/place/pois/category.json api 获取poi的类型编码
+根据类型编码剔除非相关的poi信息
