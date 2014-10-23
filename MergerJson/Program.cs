@@ -26,7 +26,7 @@ namespace MergerJson
             string dateNow = DateTime.Now.ToString("yyyy_MM_dd");
             string timeNow = DateTime.Now.ToString("_hh_mm_ss");
             streamWriter = new StreamWriter(@"../../" + "/log" + "//log_" + dateNow + timeNow + ".txt", false);
-            ValidatePoiType();
+            DiffCategories();
             streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : finish!!!!");
             streamWriter.Close();
             Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : finish!!!!");
@@ -79,6 +79,7 @@ namespace MergerJson
 
         private static void ValidatePoiType()
         {
+            //type1
             int[] typeArray = new int[]{
                 33,254,20,156,219,
                 45,252,52,671,678,
@@ -95,24 +96,26 @@ namespace MergerJson
                 250,604,607,677,627,
                 628
             };
+
             List<int> typeList = new List<int>(typeArray);
             JArray ja = (JArray)JsonConvert.DeserializeObject(File.ReadAllText(@"../../output/mergeresult.json"));
             JArray jaTypeTrue = new JArray();
             JArray jaTypeFalse = new JArray();
             JArray jaTypeNull = new JArray();
-            foreach(JObject jo in ja){
+            foreach (JObject jo in ja)
+            {
                 if (typeList.Contains(Int32.Parse(jo["category"].ToString())))
                 {
                     jaTypeTrue.Add(jo);
                     Console.WriteLine("TypeTrue :" + DateTime.Now.ToLocalTime().ToString() + ";" + jo["title"].ToString() + ";" + jo["poiid"].ToString());
                     streamWriter.WriteLine("TypeTrue :" + DateTime.Now.ToLocalTime().ToString() + ";" + jo["title"].ToString() + ";" + jo["poiid"].ToString());
                 }
-                else if (Int32.Parse(jo["category"].ToString())==500)
+                else if (Int32.Parse(jo["category"].ToString()) == 500)
                 {
                     jaTypeNull.Add(jo);
                     Console.WriteLine("TypeNull :" + DateTime.Now.ToLocalTime().ToString() + ";" + jo["title"].ToString() + ";" + jo["poiid"].ToString());
                     streamWriter.WriteLine("TypeNull :" + DateTime.Now.ToLocalTime().ToString() + ";" + jo["title"].ToString() + ";" + jo["poiid"].ToString());
-                
+
                 }
                 else
                 {
@@ -132,6 +135,49 @@ namespace MergerJson
             File.WriteAllText(@"../../" + "/output/typenull.json", jaTypeNull.ToString());
         }
 
+        private static void DiffCategories()
+        {
+            //type1
+            int[] typeArray = new int[]{
+                33,254,20,156,219,
+                45,252,52,671,678,
+                116,179,180,182,183,
+                184,185,186,187,188,
+                189,195,196,197,198,
+                199,200,201,202,203,
+                204,205,206,207,208,
+                220,221,222,223,224,
+                225,226,227,228,229,
+                230,231,232,233,234,
+                235,236,237,238,239,
+                240,243,244,245,246,
+                250,604,607,677,627,
+                628
+            };
+            List<int> typeList = new List<int>(typeArray);
+            JArray ja = (JArray)JsonConvert.DeserializeObject(File.ReadAllText(@"../../output/type1/typetrue.json"));
+            foreach (int num in typeList)
+            {
+                string path = @"../../output/" + num;
+                if (!Directory.Exists(path))
+                {
+                    Directory.CreateDirectory(path);
+                }
+                JArray jaType = new JArray();
+                foreach (JObject jo in ja)
+                {
+                    if (Int32.Parse(jo["category"].ToString()) == num)
+                    {
+                        jaType.Add(jo);
+                        Console.WriteLine("jaType :" + DateTime.Now.ToLocalTime().ToString() + ";" + jo["title"].ToString() + ";" + jo["poiid"].ToString());
+                        streamWriter.WriteLine("jaType :" + DateTime.Now.ToLocalTime().ToString() + ";" + jo["title"].ToString() + ";" + jo["poiid"].ToString());
+                    }
+                    Console.WriteLine("jaType:" + DateTime.Now.ToLocalTime().ToString() + ";" + jaType.Count.ToString());
+                    streamWriter.WriteLine("jaType:" + DateTime.Now.ToLocalTime().ToString() + ";" + jaType.Count.ToString());
+                    File.WriteAllText(path + "/" + num + ".json", jaType.ToString());
+                }
+            }
+        }
     }
 
 }
