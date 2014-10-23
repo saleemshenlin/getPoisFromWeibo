@@ -26,7 +26,7 @@ namespace MergerJson
             string dateNow = DateTime.Now.ToString("yyyy_MM_dd");
             string timeNow = DateTime.Now.ToString("_hh_mm_ss");
             streamWriter = new StreamWriter(@"../../" + "/log" + "//log_" + dateNow + timeNow + ".txt", false);
-            MergeData();
+            ValidatePoiType();
             streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : finish!!!!");
             streamWriter.Close();
             Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : finish!!!!");
@@ -58,7 +58,7 @@ namespace MergerJson
                         }
                         else
                         {
-                            if(!poiIdList.Contains(joTemp["poiid"].ToString()))
+                            if (!poiIdList.Contains(joTemp["poiid"].ToString()))
                             {
                                 jaAll.Add(joTemp);
                                 poiIdList.Add(joTemp["poiid"].ToString());
@@ -76,6 +76,62 @@ namespace MergerJson
                 streamWriter.WriteLine("Error :" + DateTime.Now.ToLocalTime().ToString() + " ; " + ex.Message.ToString());
             }
         }
+
+        private static void ValidatePoiType()
+        {
+            int[] typeArray = new int[]{
+                33,254,20,156,219,
+                45,252,52,671,678,
+                116,179,180,182,183,
+                184,185,186,187,188,
+                189,195,196,197,198,
+                199,200,201,202,203,
+                204,205,206,207,208,
+                220,221,222,223,224,
+                225,226,227,228,229,
+                230,231,232,233,234,
+                235,236,237,238,239,
+                240,243,244,245,246,
+                250,604,607,677,627,
+                628
+            };
+            List<int> typeList = new List<int>(typeArray);
+            JArray ja = (JArray)JsonConvert.DeserializeObject(File.ReadAllText(@"../../output/mergeresult.json"));
+            JArray jaTypeTrue = new JArray();
+            JArray jaTypeFalse = new JArray();
+            JArray jaTypeNull = new JArray();
+            foreach(JObject jo in ja){
+                if (typeList.Contains(Int32.Parse(jo["category"].ToString())))
+                {
+                    jaTypeTrue.Add(jo);
+                    Console.WriteLine("TypeTrue :" + DateTime.Now.ToLocalTime().ToString() + ";" + jo["title"].ToString() + ";" + jo["poiid"].ToString());
+                    streamWriter.WriteLine("TypeTrue :" + DateTime.Now.ToLocalTime().ToString() + ";" + jo["title"].ToString() + ";" + jo["poiid"].ToString());
+                }
+                else if (Int32.Parse(jo["category"].ToString())==500)
+                {
+                    jaTypeNull.Add(jo);
+                    Console.WriteLine("TypeNull :" + DateTime.Now.ToLocalTime().ToString() + ";" + jo["title"].ToString() + ";" + jo["poiid"].ToString());
+                    streamWriter.WriteLine("TypeNull :" + DateTime.Now.ToLocalTime().ToString() + ";" + jo["title"].ToString() + ";" + jo["poiid"].ToString());
+                
+                }
+                else
+                {
+                    jaTypeFalse.Add(jo);
+                    Console.WriteLine("TypeFalse :" + DateTime.Now.ToLocalTime().ToString() + ";" + jo["title"].ToString() + ";" + jo["poiid"].ToString());
+                    streamWriter.WriteLine("TypeFalse :" + DateTime.Now.ToLocalTime().ToString() + ";" + jo["title"].ToString() + ";" + jo["poiid"].ToString());
+                }
+            }
+            Console.WriteLine("TypeFalseCount:" + DateTime.Now.ToLocalTime().ToString() + ";" + jaTypeFalse.Count.ToString());
+            streamWriter.WriteLine("TypeFalseCount:" + DateTime.Now.ToLocalTime().ToString() + ";" + jaTypeFalse.Count.ToString());
+            Console.WriteLine("TypeTrueCount:" + DateTime.Now.ToLocalTime().ToString() + ";" + jaTypeTrue.Count.ToString());
+            streamWriter.WriteLine("TypeTrueCount:" + DateTime.Now.ToLocalTime().ToString() + ";" + jaTypeTrue.Count.ToString());
+            Console.WriteLine("TypeNullCount:" + DateTime.Now.ToLocalTime().ToString() + ";" + jaTypeNull.Count.ToString());
+            streamWriter.WriteLine("TypeNullCount:" + DateTime.Now.ToLocalTime().ToString() + ";" + jaTypeNull.Count.ToString());
+            File.WriteAllText(@"../../" + "/output/typefalse.json", jaTypeFalse.ToString());
+            File.WriteAllText(@"../../" + "/output/typetrue.json", jaTypeTrue.ToString());
+            File.WriteAllText(@"../../" + "/output/typenull.json", jaTypeNull.ToString());
+        }
+
     }
 
 }
