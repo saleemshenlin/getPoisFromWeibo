@@ -1,0 +1,3449 @@
+[
+  {
+    "poiid": "B2094655D26DAAF5469A",
+    "title": "上海花园坊节能环保产业园",
+    "lon": "121.47562",
+    "lat": "31.27226",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "虹口区花园路171号(近中山北一路)"
+  },
+  {
+    "poiid": "B2094655D26CA1F4459E",
+    "title": "虹口区提篮创业园区",
+    "lon": "121.49781",
+    "lat": "31.2551",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "周家嘴路448"
+  },
+  {
+    "poiid": "B2094655D26CA1F4459F",
+    "title": "虹口区提篮创业园区(北门)",
+    "lon": "121.49765",
+    "lat": "31.25522",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "周家嘴路448"
+  },
+  {
+    "poiid": "B2094654DA6DA1F9469B",
+    "title": "上海富利经济城",
+    "lon": "121.43611",
+    "lat": "31.16882",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "龙漕路1弄1号龙漕大楼底层"
+  },
+  {
+    "poiid": "B2094654DA6DA4FE479B",
+    "title": "中南都市型工业园区",
+    "lon": "121.45975",
+    "lat": "31.18781",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "中山南二路595-597"
+  },
+  {
+    "poiid": "B2094654DA6DA4FE4998",
+    "title": "中南都市型工业园区(北门)",
+    "lon": "121.45942",
+    "lat": "31.18799",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "中山南二路595-597"
+  },
+  {
+    "poiid": "B2094655D26CAAFA4398",
+    "title": "华东师苑大学国家大学科技园高新技术孵化园",
+    "lon": "121.40551",
+    "lat": "31.23167",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "金沙江路155"
+  },
+  {
+    "poiid": "B2094654DA6CA3FF419E",
+    "title": "上海静安科技贸易园区",
+    "lon": "121.45182",
+    "lat": "31.23272",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "陕西北路600号"
+  },
+  {
+    "poiid": "B2094655D26DA1FC409F",
+    "title": "湖丝栈创意产业园",
+    "lon": "121.42192",
+    "lat": "31.22534",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "万航渡路1384弄12"
+  },
+  {
+    "poiid": "B2094655D26DA4F8429A",
+    "title": "湖丝栈创意产业园(北门)",
+    "lon": "121.42199",
+    "lat": "31.22553",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "万航渡路1384弄12"
+  },
+  {
+    "poiid": "B2094654DA64A4FE409D",
+    "title": "松沪工业B区",
+    "lon": "121.29129",
+    "lat": "31.14663",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094757D568AAFB489F",
+    "title": "松沪工业A区",
+    "lon": "121.29600803",
+    "lat": "31.13782742",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "九泾路470"
+  },
+  {
+    "poiid": "B2094654DA64A4FD499B",
+    "title": "上海市气象局工程技术园区",
+    "lon": "121.289",
+    "lat": "31.13891",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB65A4F4449E",
+    "title": "荣欣装潢工业园区",
+    "lon": "121.28453",
+    "lat": "31.14275",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA64A4FE409E",
+    "title": "核威集团上海工业园区",
+    "lon": "121.28851",
+    "lat": "31.13772",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "涞坊路2039、2049"
+  },
+  {
+    "poiid": "B2094654DB6AA2F44092",
+    "title": "上海城桥经济开发区",
+    "lon": "121.45916",
+    "lat": "31.2546",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "大统路938弄7号2104室"
+  },
+  {
+    "poiid": "B2094654DA68A7F84098",
+    "title": "半淞都市型工业园区",
+    "lon": "121.48732",
+    "lat": "31.20145",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA6AA1FB4093",
+    "title": "金桥现代产业服务园区",
+    "lon": "121.59279",
+    "lat": "31.24458",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "新金桥路27号"
+  },
+  {
+    "poiid": "B2094654DA6AA7F8469E",
+    "title": "金桥出口加工区21号",
+    "lon": "121.59998",
+    "lat": "31.24527",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "金藏路366"
+  },
+  {
+    "poiid": "B2094654DA6AA1F9499B",
+    "title": "金桥科技工业城",
+    "lon": "121.59988",
+    "lat": "31.2452",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "金藏路366"
+  },
+  {
+    "poiid": "B2094654DA6AA1F9499F",
+    "title": "金桥出口加工区20号",
+    "lon": "121.59831",
+    "lat": "31.24735",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "金藏路258(1-5)"
+  },
+  {
+    "poiid": "B2094654DA6AA1F9499A",
+    "title": "金桥出口加工区22号(云桥路)",
+    "lon": "121.60066",
+    "lat": "31.24586",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "云桥路25号"
+  },
+  {
+    "poiid": "B2094654DB69A6FC4698",
+    "title": "上海市金桥出口加工区",
+    "lon": "121.59426",
+    "lat": "31.24956",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "浦东新区中部"
+  },
+  {
+    "poiid": "B2094655D26BA7FB479B",
+    "title": "商务印刷创意园",
+    "lon": "121.52586",
+    "lat": "31.26671",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094655D264AAF84899",
+    "title": "华东理工大学国家大学科技园",
+    "lon": "121.42814",
+    "lat": "31.14552",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094655D26FAAFB409C",
+    "title": "上海商务科技园区",
+    "lon": "121.42824",
+    "lat": "31.14125",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "梅陇路1"
+  },
+  {
+    "poiid": "B2094654D564A6FA409F",
+    "title": "东华大学国家大学科技园(北门)",
+    "lon": "121.42552",
+    "lat": "31.20315",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "新华路365弄5"
+  },
+  {
+    "poiid": "B2094654DA6AA6FC4999",
+    "title": "团结工贸公司工业气供应体站",
+    "lon": "121.62681",
+    "lat": "31.19809",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "申江路"
+  },
+  {
+    "poiid": "B2094654DA6DA3FE489F",
+    "title": "上海交通大学国家大学科技园发(乐山路)",
+    "lon": "121.43236",
+    "lat": "31.19622",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "乐山路33"
+  },
+  {
+    "poiid": "B2094654DA6DA3FE489E",
+    "title": "慧谷创业",
+    "lon": "121.43236",
+    "lat": "31.19622",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "乐山路33"
+  },
+  {
+    "poiid": "B2094654DA68A6FE489D",
+    "title": "上海电气自动化工业科技园(蒙自路)",
+    "lon": "121.4784",
+    "lat": "31.20338",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "蒙自路360"
+  },
+  {
+    "poiid": "B2094654DA68A7F4449A",
+    "title": "卢湾五里桥开业园区",
+    "lon": "121.47849",
+    "lat": "31.20077",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "瞿溪路883弄22号"
+  },
+  {
+    "poiid": "B2094655D26BA7FD409C",
+    "title": "卢湾五里桥青年创业孵化园区",
+    "lon": "121.4785",
+    "lat": "31.20077",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "瞿溪路883弄1-22号"
+  },
+  {
+    "poiid": "B2094655D265AAFA409F",
+    "title": "彩虹雨创意园",
+    "lon": "121.46382",
+    "lat": "31.27556",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "闸北区北宝兴路355号(近延长路)"
+  },
+  {
+    "poiid": "B2094655D26DA2FE419B",
+    "title": "弘基创邑国际园",
+    "lon": "121.42823",
+    "lat": "31.21826",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "长宁区愚园路1107号(近江苏路)"
+  },
+  {
+    "poiid": "B2094654DA6BABF44193",
+    "title": "七宝镇第一工业区",
+    "lon": "121.35789",
+    "lat": "31.16402",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA6BA5FD4592",
+    "title": "上海宏良经济开发区",
+    "lon": "121.12387",
+    "lat": "31.14671",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "城中东路66号2层"
+  },
+  {
+    "poiid": "B2094654D568A3F5449F",
+    "title": "上海惠民经济园区",
+    "lon": "121.52108",
+    "lat": "31.29951",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "国定东路211、217"
+  },
+  {
+    "poiid": "B2094654DB6DA0FF4292",
+    "title": "金光工业园区",
+    "lon": "121.51287",
+    "lat": "31.13903",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上南路4560弄1-17号"
+  },
+  {
+    "poiid": "B2094654DA64A6F8439C",
+    "title": "东方教具工业园",
+    "lon": "121.27437",
+    "lat": "31.12601",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D56BAAFF499E",
+    "title": "浦原科技园",
+    "lon": "121.42460496969",
+    "lat": "31.174196043246",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海市徐汇区桂林路396号"
+  },
+  {
+    "poiid": "B2094654D56FA2FE499D",
+    "title": "上汽北外滩汽贸园区",
+    "lon": "121.51394",
+    "lat": "31.25616",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "霍山路340"
+  },
+  {
+    "poiid": "B2094654DA6AA4FC4899",
+    "title": "王港工业区",
+    "lon": "121.66764",
+    "lat": "31.18537",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094757D069A3FB449F",
+    "title": "上海东方尚博创意产业园",
+    "lon": "121.51148986",
+    "lat": "31.189821243",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "浦东新区东方路3539号(近地铁7号线高科西路站)"
+  },
+  {
+    "poiid": "B2094654DA6AA3FE459B",
+    "title": "丰艺都市型工业园区",
+    "lon": "121.51052",
+    "lat": "31.18889",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "东方路3601"
+  },
+  {
+    "poiid": "B2094654D568A2F4489A",
+    "title": "理工大学科技园",
+    "lon": "121.558",
+    "lat": "31.3153",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "翔殷路128号"
+  },
+  {
+    "poiid": "B2094654D568AAFC469B",
+    "title": "新鸿都市型工业园区",
+    "lon": "121.56678",
+    "lat": "31.31944",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6FA0F4409E",
+    "title": "中汇科技园",
+    "lon": "121.66334",
+    "lat": "31.03386",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA6BA1FA429F",
+    "title": "上海浦东临空出口农业园区",
+    "lon": "121.78378",
+    "lat": "31.17736",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6EA5F8439E",
+    "title": "松江出口加工区",
+    "lon": "121.27671",
+    "lat": "31.01018",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "松江区松卫北路"
+  },
+  {
+    "poiid": "B2094654DB6EA4FC429E",
+    "title": "罗伊尔工业园",
+    "lon": "121.28504",
+    "lat": "31.0178",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "西泖泾路175"
+  },
+  {
+    "poiid": "B2094654DA6AA6F84698",
+    "title": "张江润和国际总部园",
+    "lon": "121.60652",
+    "lat": "31.19021",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "杨浦区大学路33号"
+  },
+  {
+    "poiid": "B2094654DA6AA6FE409F",
+    "title": "张江药谷孵化基地",
+    "lon": "121.60812",
+    "lat": "31.19402",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "蔡伦路720弄1-7号"
+  },
+  {
+    "poiid": "B2094654DA6AA6FE449C",
+    "title": "浦东国际科技合作孵化基地",
+    "lon": "121.60693",
+    "lat": "31.19383",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "蔡伦路780"
+  },
+  {
+    "poiid": "B2094654D46AABFB429B",
+    "title": "上海外高桥保税区(二号门)",
+    "lon": "121.58669",
+    "lat": "31.35007",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海市浦东新区"
+  },
+  {
+    "poiid": "B2094654D46AABF5419A",
+    "title": "上海外联发D4工业园区(东门)",
+    "lon": "121.596",
+    "lat": "31.34759",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6AA5F4469E",
+    "title": "上海外联发D2工业园区",
+    "lon": "121.59429",
+    "lat": "31.34407",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "外高桥保税区富特北路200"
+  },
+  {
+    "poiid": "B2094654D46AAAF44099",
+    "title": "上海外联发D5工业园区(富特北路)",
+    "lon": "121.59568",
+    "lat": "31.34318",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "富特北路125-133(D5-14-18号)"
+  },
+  {
+    "poiid": "B2094654DB6FABFD499F",
+    "title": "五厍示范区科技扶贫扶残基地",
+    "lon": "121.10686",
+    "lat": "30.92267",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6DA4FA4493",
+    "title": "松江科技园区社会保障服务中心",
+    "lon": "121.13649",
+    "lat": "31.03471",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094757D069A1FC419D",
+    "title": "紫竹科学园区",
+    "lon": "121.45352312",
+    "lat": "31.02358667",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海市闵行区东川路555号"
+  },
+  {
+    "poiid": "B2094655D264A0FF429A",
+    "title": "微软中国上海科技园区",
+    "lon": "121.45018",
+    "lat": "31.02005",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "紫星路999"
+  },
+  {
+    "poiid": "B2094655D265A0FA489E",
+    "title": "D1国际创意空间",
+    "lon": "121.44582",
+    "lat": "31.17874",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海徐汇区天钥桥路909号"
+  },
+  {
+    "poiid": "B2094654DA6DA7FE4292",
+    "title": "2577创意大院",
+    "lon": "121.45108",
+    "lat": "31.17846",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "徐汇区龙华路2577号(近龙华寺)"
+  },
+  {
+    "poiid": "B2094654DB6BAAFC499A",
+    "title": "证大五道口广场",
+    "lon": "121.55026",
+    "lat": "31.22629",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "浦东新区民生路1199弄"
+  },
+  {
+    "poiid": "B2094654DB6BA2F4499D",
+    "title": "杨浦区校园绿化发展基地",
+    "lon": "121.55039",
+    "lat": "31.30715",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "翔殷路119"
+  },
+  {
+    "poiid": "B2094654D568A2FB4593",
+    "title": "长白经济园区民星工业园",
+    "lon": "121.54779",
+    "lat": "31.31133",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "民星路199"
+  },
+  {
+    "poiid": "B2094654DB6FABFD489C",
+    "title": "上海云间大自然农业科技示范基地",
+    "lon": "121.12686",
+    "lat": "30.93511",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB68A0FE499A",
+    "title": "华梅科技园",
+    "lon": "121.2667",
+    "lat": "30.91422",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094655D26DA2FC429E",
+    "title": "DOHO",
+    "lon": "121.40579871717932",
+    "lat": "31.220632293765263",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海市长宁区万航渡路2452号"
+  },
+  {
+    "poiid": "B2094654D469A3FC4599",
+    "title": "外冈工业园经济城",
+    "lon": "121.17462",
+    "lat": "31.35933",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "外青松公路165"
+  },
+  {
+    "poiid": "B2094654D469A7FC489F",
+    "title": "福星工业",
+    "lon": "121.26792",
+    "lat": "31.34196",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D469A7FD4193",
+    "title": "上海市工业区国家级高新技术区马陆园区",
+    "lon": "121.27435",
+    "lat": "31.34537",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D469A4FA4199",
+    "title": "上海汽车工业活动中心",
+    "lon": "121.26267",
+    "lat": "31.37614",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "博乐南路125"
+  },
+  {
+    "poiid": "B2094654DB69A6F94298",
+    "title": "陆家嘴金融贸易区",
+    "lon": "121.49691",
+    "lat": "31.23827",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "浦西外滩对面"
+  },
+  {
+    "poiid": "B2094757D568A0F84898",
+    "title": "上海宝山科技园",
+    "lon": "121.39706787",
+    "lat": "31.31110948",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上大路668"
+  },
+  {
+    "poiid": "B2094655D264A5FA469F",
+    "title": "尚街创意园",
+    "lon": "121.4603",
+    "lat": "31.20464",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "嘉善路508号"
+  },
+  {
+    "poiid": "B2094654DB64A3F5469B",
+    "title": "上海青浦工业园区创业中心",
+    "lon": "121.12488",
+    "lat": "31.1492",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "公园路99号11层"
+  },
+  {
+    "poiid": "B2094654DA6BA5FE4299",
+    "title": "上海益田经济开发区",
+    "lon": "121.12488",
+    "lat": "31.1492",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "公园路99号1层"
+  },
+  {
+    "poiid": "B2094655D26FA1FB429A",
+    "title": "鹏信都市工业园",
+    "lon": "121.46928",
+    "lat": "31.2481",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "西藏北路489"
+  },
+  {
+    "poiid": "B2094654DB69A6F94399",
+    "title": "上海市宝山现代农业园区",
+    "lon": "121.17423",
+    "lat": "30.8916",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "宝山区罗南镇塘汇河"
+  },
+  {
+    "poiid": "B2094655D264AAFA439E",
+    "title": "置汇谷",
+    "lon": "121.48751",
+    "lat": "31.28348",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "虹口区东体育会路860号(近赤峰路)"
+  },
+  {
+    "poiid": "B2094655D26FA1FD409E",
+    "title": "富民私营经济开发区",
+    "lon": "121.03258",
+    "lat": "30.97336",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6FABFC419A",
+    "title": "裕科集团富民园区",
+    "lon": "121.03082",
+    "lat": "30.97705",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB68A7FC469C",
+    "title": "上海市工业综合开发区庄行工业园",
+    "lon": "121.41579",
+    "lat": "30.90936",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海市奉贤区工业综合开发区庄行工业园"
+  },
+  {
+    "poiid": "B2094654DB64A3F9429C",
+    "title": "上海浦东软件园(郭守敬路)",
+    "lon": "121.59803",
+    "lat": "31.2104",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海浦东新区郭守敬路498号"
+  },
+  {
+    "poiid": "B2094654DA6AA5F44098",
+    "title": "上海市张江高科技园区",
+    "lon": "121.59851",
+    "lat": "31.21081",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "郭守敬路498"
+  },
+  {
+    "poiid": "B2094654DA6AA0FE419C",
+    "title": "宝钢高科技园",
+    "lon": "121.59823",
+    "lat": "31.2116",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "郭守敬路515号"
+  },
+  {
+    "poiid": "B2094654DA6AA6FC409E",
+    "title": "上海市张江高科技园区(上海市中医科技产业促进中心东)",
+    "lon": "121.59384",
+    "lat": "31.21024",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA6AA6FC4299",
+    "title": "上海市张江高科技园区热力中心",
+    "lon": "121.59243",
+    "lat": "31.2091",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "郭守敬路178"
+  },
+  {
+    "poiid": "B2094757D568A6FB449D",
+    "title": "金蝶软件园",
+    "lon": "121.591658600001",
+    "lat": "31.1994727000003",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "浦东新区晨晖路88号"
+  },
+  {
+    "poiid": "B2094654DB6FABF94999",
+    "title": "泖港镇科技扶贫扶残基地",
+    "lon": "121.13353",
+    "lat": "30.91482",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094757D068A5FC489C",
+    "title": "广达上海制造城",
+    "lon": "121.3050003",
+    "lat": "31.022720336",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海市松江出口加工区"
+  },
+  {
+    "poiid": "B2094655D265AAFB419D",
+    "title": "财富兴园",
+    "lon": "121.3077492401",
+    "lat": "31.003352305746",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "泖亭路188弄"
+  },
+  {
+    "poiid": "B2094654DA6AA6FC419E",
+    "title": "上海市张江高科技园区(碧波路)",
+    "lon": "121.58106",
+    "lat": "31.20162",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "碧波路572弄115号-24幢"
+  },
+  {
+    "poiid": "B2094654DB6BA5F4439B",
+    "title": "X2创意空间",
+    "lon": "121.46488",
+    "lat": "31.1983",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "西湖区古墩路沿线"
+  },
+  {
+    "poiid": "B2094655D268A3FB4493",
+    "title": "现代都市工业园区",
+    "lon": "121.46795",
+    "lat": "31.19843",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "瑞金南路500号"
+  },
+  {
+    "poiid": "B2094654DB6FABFD489F",
+    "title": "名优养殖基地",
+    "lon": "121.12124",
+    "lat": "30.93585",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA6AA0FB419D",
+    "title": "金桥出口加工区48号",
+    "lon": "121.60958",
+    "lat": "31.24232",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "桂桥路290"
+  },
+  {
+    "poiid": "B2094654DA6AA7F8409D",
+    "title": "高旺橱柜浦东基地",
+    "lon": "121.6067",
+    "lat": "31.23863",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094757D568A0F4449E",
+    "title": "青浦工业园区",
+    "lon": "120.9124367",
+    "lat": "31.09691",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "青浦区青商路1851-1885"
+  },
+  {
+    "poiid": "B2094654DB6FABFF489F",
+    "title": "上海富民仓桥经济城肯顿工业园区",
+    "lon": "121.22489",
+    "lat": "30.98047",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA65ABF8489B",
+    "title": "汇丰创意园",
+    "lon": "121.45278",
+    "lat": "31.14834",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "徐汇区喜泰路239号(近植物园)"
+  },
+  {
+    "poiid": "B2094654DA6AA7F54699",
+    "title": "上海张江高科技园区",
+    "lon": "121.58762",
+    "lat": "31.21184",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "浦东新区科苑路399号"
+  },
+  {
+    "poiid": "B2094654DB6FA4F44599",
+    "title": "上海果树良种繁育示范基地",
+    "lon": "121.88727",
+    "lat": "31.01407",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094655D26DA7FB4293",
+    "title": "张江微电子港(碧波路)",
+    "lon": "121.58356",
+    "lat": "31.19999",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海碧波路690号"
+  },
+  {
+    "poiid": "B2094655D265AAFC4798",
+    "title": "光大金鹤信息科技园",
+    "lon": "121.58207",
+    "lat": "31.18571",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海市浦东新区张衡路198弄"
+  },
+  {
+    "poiid": "B2094654DB68ABF44493",
+    "title": "洋山保税港区",
+    "lon": "121.88819",
+    "lat": "30.87725",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D568ABF9499B",
+    "title": "上海航道局朱家浜基地",
+    "lon": "121.56707",
+    "lat": "31.29735",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "东塘路140号"
+  },
+  {
+    "poiid": "B2094654DB68ABFF4498",
+    "title": "上海教卫青少年社会实践基地",
+    "lon": "121.69486",
+    "lat": "30.87261",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6DA6FA459D",
+    "title": "上海浦东川沙经济园区",
+    "lon": "121.71005",
+    "lat": "31.15657",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D56EA6F44292",
+    "title": "上海梅林正广和都市型工业园区",
+    "lon": "121.52056",
+    "lat": "31.25873",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "通北路400"
+  },
+  {
+    "poiid": "B2094654D46BA6F44898",
+    "title": "南翔工业区",
+    "lon": "121.329",
+    "lat": "31.31223",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D46AA2F4459B",
+    "title": "上海轻玻都市型工业园区",
+    "lon": "121.47255",
+    "lat": "31.34364",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "长江西路685号"
+  },
+  {
+    "poiid": "B2094757D569A1FF409A",
+    "title": "青港工业园",
+    "lon": "121.59221842",
+    "lat": "30.92283719",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "中国上海市奉贤区光大路"
+  },
+  {
+    "poiid": "B2094654D469A3F4449B",
+    "title": "嘉城经济城",
+    "lon": "121.23955",
+    "lat": "31.3727",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "塔城路815号"
+  },
+  {
+    "poiid": "B2094654DA6CA7F84098",
+    "title": "不夜城都市工业园",
+    "lon": "121.45118",
+    "lat": "31.24772",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海闸北区恒丰路610号"
+  },
+  {
+    "poiid": "B2094654D56EA7FF4398",
+    "title": "上海有机新材料科技工业园",
+    "lon": "121.53945",
+    "lat": "31.25644",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "杨树浦路1578"
+  },
+  {
+    "poiid": "B2094654DA6DA1FE479B",
+    "title": "天华信息科技园区",
+    "lon": "121.44167",
+    "lat": "31.17406",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094655D265A6F54799",
+    "title": "玛戈隆特古瓷文化产业园",
+    "lon": "121.66962",
+    "lat": "31.26194",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "瑞祥路68号"
+  },
+  {
+    "poiid": "B2094654D56DA0FA499E",
+    "title": "复旦科技园",
+    "lon": "121.50287447558",
+    "lat": "31.300838521028",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "邯郸路139-141"
+  },
+  {
+    "poiid": "B2094655D26DAAFD429B",
+    "title": "上海平凉经济园区海达工业园",
+    "lon": "121.5001",
+    "lat": "31.30372",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "武东路32"
+  },
+  {
+    "poiid": "B2094654D46BA6F5449C",
+    "title": "上海南祥科技园区",
+    "lon": "121.28878",
+    "lat": "31.30175",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D46BA5FE4392",
+    "title": "上海市市级千亩苗木基地",
+    "lon": "121.26757",
+    "lat": "31.31577",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D464A1FE449A",
+    "title": "浩翔都市型工业园区",
+    "lon": "121.45478",
+    "lat": "31.25748",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "普善路280"
+  },
+  {
+    "poiid": "B2094654DA6AA4FE419A",
+    "title": "上海金桥出口加工区(南区)",
+    "lon": "121.67745",
+    "lat": "31.22324",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094757D568ABF9489F",
+    "title": "上海国际汽车城创业园",
+    "lon": "121.17363498",
+    "lat": "31.29556288",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "中国上海市嘉定区昌吉路"
+  },
+  {
+    "poiid": "B2094654DA64ABF9409C",
+    "title": "上海达飞工业气体经销站",
+    "lon": "121.2768",
+    "lat": "31.09036",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6EA6F4489B",
+    "title": "上海新鸿企业园区",
+    "lon": "121.28723",
+    "lat": "31.07618",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D564A6F5479E",
+    "title": "东风都市工业园",
+    "lon": "121.4188",
+    "lat": "31.20369",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "凯旋路1205-1"
+  },
+  {
+    "poiid": "B2094654DB6CA0FE4092",
+    "title": "三林世博创意园",
+    "lon": "121.4963",
+    "lat": "31.15673",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "浦东新区灵岩南路295号(恒大路灵岩南路)"
+  },
+  {
+    "poiid": "B2094654D569A0FF4792",
+    "title": "上海青浦出口加工区",
+    "lon": "121.1526",
+    "lat": "31.18766",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "北青公路8118"
+  },
+  {
+    "poiid": "B2094654D569A1F5489A",
+    "title": "上海高新建筑制品产业化基地",
+    "lon": "121.17003",
+    "lat": "31.16668",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6BA4FB469F",
+    "title": "卓维700上海创意产业集聚区",
+    "lon": "121.47692",
+    "lat": "31.21411",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "黄陂南路700"
+  },
+  {
+    "poiid": "B2094654DB68AAFC409D",
+    "title": "上海金山灵芝培植基地",
+    "lon": "121.15689",
+    "lat": "30.78771",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "漕廊公路9138"
+  },
+  {
+    "poiid": "B2094654DB6FA7FD4393",
+    "title": "上海南汇工业园区",
+    "lon": "121.7153",
+    "lat": "31.03392",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "南汇区沪南公路9458号"
+  },
+  {
+    "poiid": "B2094655D26CA5F9489D",
+    "title": "上海滨江创意产业园(北门)",
+    "lon": "121.54779",
+    "lat": "31.26471",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "杨树浦路2218"
+  },
+  {
+    "poiid": "B2094655D26CA5FD439F",
+    "title": "上海滨江创意产业园",
+    "lon": "121.54797",
+    "lat": "31.26447",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "杨树浦路2218"
+  },
+  {
+    "poiid": "B2094654D56FA3F9429E",
+    "title": "梅迪亚1895创意产业园",
+    "lon": "121.52534",
+    "lat": "31.26094",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6EA5FD4999",
+    "title": "松江试点园区北部工业分区",
+    "lon": "121.2591",
+    "lat": "31.0379",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "沪松路588号"
+  },
+  {
+    "poiid": "B2094654DB6DA4FE469A",
+    "title": "科邦工业园(茸北路)",
+    "lon": "121.24421",
+    "lat": "31.03952",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "茸北路333弄1-10号"
+  },
+  {
+    "poiid": "B2094654D468A5F84798",
+    "title": "上海崇明现代农业园区制种基地",
+    "lon": "121.80802",
+    "lat": "31.59348",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D468A5F8479F",
+    "title": "上海崇明现代农业园区",
+    "lon": "121.80892",
+    "lat": "31.59392",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D56CABFA419A",
+    "title": "3D苑创意产业园区",
+    "lon": "121.49301",
+    "lat": "31.31198",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094757D069A6F44998",
+    "title": "明谷科技园",
+    "lon": "121.347367556",
+    "lat": "31.1373735461",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海中春路华茂路"
+  },
+  {
+    "poiid": "B2094654DA64A0FC439E",
+    "title": "上海市松江区九亭镇经济开发区",
+    "lon": "121.336",
+    "lat": "31.1429",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "伴亭东路278弄"
+  },
+  {
+    "poiid": "B2094654DA64A4F9499E",
+    "title": "七宝镇号上村工业区",
+    "lon": "121.34037",
+    "lat": "31.14127",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA64A4FA469B",
+    "title": "上海七宝经济城",
+    "lon": "121.34698",
+    "lat": "31.13783",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "中春路7001号"
+  },
+  {
+    "poiid": "B2094654DB6FABFF4598",
+    "title": "凤泽工业园",
+    "lon": "121.2175",
+    "lat": "30.98357",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6FABFF459F",
+    "title": "松江发展园区",
+    "lon": "121.21726",
+    "lat": "30.98527",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D56BABF5469F",
+    "title": "上海漕河泾开发区新汇园",
+    "lon": "121.40301",
+    "lat": "31.17879",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "钦州北路1122"
+  },
+  {
+    "poiid": "B2094654DB64A2FB479C",
+    "title": "上海科汇高新技术创业服务中心科汇孵化基地(嘉川路)",
+    "lon": "121.42893",
+    "lat": "31.13894",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "嘉川路245"
+  },
+  {
+    "poiid": "B2094654DA6AA4FE4292",
+    "title": "上海色线浦东生产基地",
+    "lon": "121.73852",
+    "lat": "31.22569",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA6AAAF9449B",
+    "title": "上海畅成滨江工业区",
+    "lon": "121.75141",
+    "lat": "31.2359",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA64A1F5459A",
+    "title": "清华科教园",
+    "lon": "121.2557",
+    "lat": "31.08698",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "洞业路388"
+  },
+  {
+    "poiid": "B2094654DA6BA4F84698",
+    "title": "东地科技园",
+    "lon": "121.19075",
+    "lat": "31.10988",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "泗陈公路3666"
+  },
+  {
+    "poiid": "B2094654DA6AA6F44098",
+    "title": "上海浦东张江工业气体供应站",
+    "lon": "121.60904",
+    "lat": "31.21885",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "张江路"
+  },
+  {
+    "poiid": "B2094655D265A2F9439C",
+    "title": "圣骊虹桥创意园",
+    "lon": "121.42069",
+    "lat": "31.1935",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海虹桥路996弄161号"
+  },
+  {
+    "poiid": "B2094654DA6BABFD4798",
+    "title": "青浦区沪青平公路基地",
+    "lon": "121.23902",
+    "lat": "31.15491",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "沪青平公路2688弄8号"
+  },
+  {
+    "poiid": "B2094654DB64A1FB449A",
+    "title": "鹿园工业区",
+    "lon": "121.70113",
+    "lat": "31.10538",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海浦东新区鹿滨路"
+  },
+  {
+    "poiid": "B2094655D26EA1FC479F",
+    "title": "上海精密机械加工园区榆林路200号园区",
+    "lon": "121.51738",
+    "lat": "31.25431",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "榆林路200号"
+  },
+  {
+    "poiid": "B2094655D26CA6FD439B",
+    "title": "上海精密机械加工园区榆林路201号园区",
+    "lon": "121.51712",
+    "lat": "31.25487",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "榆林路201号"
+  },
+  {
+    "poiid": "B2094655D26CA4FC429B",
+    "title": "上海交通大学国家大学科技园区",
+    "lon": "121.37837",
+    "lat": "31.21909",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "长宁路3333"
+  },
+  {
+    "poiid": "B2094654D564A2FC4892",
+    "title": "齐来工业城",
+    "lon": "121.40454",
+    "lat": "31.17084",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "丰台学城海鹰路1号，3号"
+  },
+  {
+    "poiid": "B2094654D564A2FD469E",
+    "title": "上海市漕河泾新兴技术开发区",
+    "lon": "121.4063",
+    "lat": "31.16595",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "桂箐路7"
+  },
+  {
+    "poiid": "B2094655D265A6FB459D",
+    "title": "华东理工大学国家大学科技园G7软件基地",
+    "lon": "121.40484",
+    "lat": "31.16531",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094655D26BA5F4459E",
+    "title": "田林园",
+    "lon": "121.40466",
+    "lat": "31.16715",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "桂平路470号"
+  },
+  {
+    "poiid": "B2094757D568A6FC4798",
+    "title": "桂平园",
+    "lon": "121.40268446",
+    "lat": "31.17049425",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "桂平路555"
+  },
+  {
+    "poiid": "B2094655D264AAF44692",
+    "title": "桂果园",
+    "lon": "121.40331",
+    "lat": "31.1668",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "桂平路470号"
+  },
+  {
+    "poiid": "B2094655D26DA3FC4293",
+    "title": "上海仪电工业园区(田林路)",
+    "lon": "121.40706",
+    "lat": "31.16876",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "田林路192"
+  },
+  {
+    "poiid": "B2094654DB6EA7F5419D",
+    "title": "上海伦明工业园区",
+    "lon": "121.35426",
+    "lat": "31.01658",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "中辉路60"
+  },
+  {
+    "poiid": "B2094654DB6EA7F44899",
+    "title": "闵行开发区生态公园西洋园·企业园",
+    "lon": "121.3742",
+    "lat": "31.0016",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "东川路3333"
+  },
+  {
+    "poiid": "B2094655D26DA5FE4499",
+    "title": "汇星广场",
+    "lon": "121.52474",
+    "lat": "31.26416",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "霍山路1083"
+  },
+  {
+    "poiid": "B2094654DA6BABFB409C",
+    "title": "青浦工业园区固体废物处理站",
+    "lon": "121.13454",
+    "lat": "31.16228",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "华浦路480"
+  },
+  {
+    "poiid": "B2094654DA6BABFB409D",
+    "title": "中纺科技创业园",
+    "lon": "121.13439",
+    "lat": "31.16283",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA6BABFB4092",
+    "title": "汉森工业城",
+    "lon": "121.13404",
+    "lat": "31.16251",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "华浦路555"
+  },
+  {
+    "poiid": "B2094654DA6AA6F84192",
+    "title": "GE中国新园区",
+    "lon": "121.58404",
+    "lat": "31.1922",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6DA5FC449E",
+    "title": "上海祝桥空港工业区",
+    "lon": "121.77552",
+    "lat": "31.1275",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "祝潘路66"
+  },
+  {
+    "poiid": "B2094654DB6DA5FD4992",
+    "title": "东景工业园",
+    "lon": "121.785",
+    "lat": "31.1257",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "金顺路16号"
+  },
+  {
+    "poiid": "B2094654D469AAFD409B",
+    "title": "吴淞镇街道经济园区",
+    "lon": "121.49613",
+    "lat": "31.36956",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "淞浦路492"
+  },
+  {
+    "poiid": "B2094654D46AA2FC439D",
+    "title": "吴淞镇街道都市工业园区",
+    "lon": "121.49298",
+    "lat": "31.36992",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "淞兴西路16号"
+  },
+  {
+    "poiid": "B2094654D469ABFB449F",
+    "title": "新华都市工业园区",
+    "lon": "121.49571",
+    "lat": "31.3651",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "逸仙路4318号"
+  },
+  {
+    "poiid": "B2094654D46AA7FD479C",
+    "title": "八棉都市工业园",
+    "lon": "121.48886",
+    "lat": "31.36795",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D46AA5FE479B",
+    "title": "海滨都市工业吴淞服装工业园",
+    "lon": "121.49472",
+    "lat": "31.37798",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "同泰北路183"
+  },
+  {
+    "poiid": "B2094654DB68A4F5449A",
+    "title": "上海师大科技产业园区",
+    "lon": "121.52179",
+    "lat": "30.8398",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D468A4F9459C",
+    "title": "上海交通大学科教兴农基地",
+    "lon": "121.29078",
+    "lat": "31.46829",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094655D265A7F54393",
+    "title": "徐汇凌云开业园区",
+    "lon": "121.43476",
+    "lat": "31.12983",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "老沪闵路1055弄38"
+  },
+  {
+    "poiid": "B2094654D56AA0FE409E",
+    "title": "嘉锭经济城(航南路)",
+    "lon": "121.35515",
+    "lat": "31.16924",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "航南路278号"
+  },
+  {
+    "poiid": "B2094654DA65A5FB409A",
+    "title": "漕河泾都市工业园区(西区)",
+    "lon": "121.41004",
+    "lat": "31.1632",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA65A5FA499A",
+    "title": "聚科生物园区",
+    "lon": "121.414",
+    "lat": "31.1679",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "龙吴路2115号"
+  },
+  {
+    "poiid": "B2094654D46BA0FC449E",
+    "title": "千帆竞发园区",
+    "lon": "121.24056",
+    "lat": "31.25244",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "华益路55号"
+  },
+  {
+    "poiid": "B2094654D56AA3FB4093",
+    "title": "上海市工业区万力都市绥宁园区",
+    "lon": "121.34416",
+    "lat": "31.22231",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "绥宁路889"
+  },
+  {
+    "poiid": "B2094654D56BABF4409F",
+    "title": "桂箐路69号工业园",
+    "lon": "121.40483",
+    "lat": "31.17456",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "桂箐路69"
+  },
+  {
+    "poiid": "B2094655D26BA0FC4292",
+    "title": "泰科电子上海科技园南区",
+    "lon": "121.40117",
+    "lat": "31.17408",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "钦江路287-307号"
+  },
+  {
+    "poiid": "B2094757D568A5FC4792",
+    "title": "钦江园",
+    "lon": "121.4000906",
+    "lat": "31.17442735",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "钦江路333"
+  },
+  {
+    "poiid": "B2094654D564A2FC4593",
+    "title": "上海金陵商务广场",
+    "lon": "121.40777",
+    "lat": "31.17252",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "宜山路801"
+  },
+  {
+    "poiid": "B2094654DB6EA5FC499A",
+    "title": "三铭工业园区",
+    "lon": "121.26638",
+    "lat": "31.03006",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6EA4F44899",
+    "title": "松江工业区高新技术产业园区",
+    "lon": "121.25589",
+    "lat": "31.02444",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "美能达路503号"
+  },
+  {
+    "poiid": "B2094654DB6EA4F44898",
+    "title": "上海市松江工业区管理委员会(美能达路)",
+    "lon": "121.25588",
+    "lat": "31.02444",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "美能达路503号"
+  },
+  {
+    "poiid": "B2094654DA6FAAF44792",
+    "title": "四行仓库创意科技园区",
+    "lon": "121.478",
+    "lat": "31.2464",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "光复路1号老四行创意园5-6层"
+  },
+  {
+    "poiid": "B2094757D568A4FD439E",
+    "title": "南桥镇南桥经济园区",
+    "lon": "121.49665392",
+    "lat": "30.91074002",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "金海公路3369弄"
+  },
+  {
+    "poiid": "B2094654DB68A4F44699",
+    "title": "上海奉贤区光明工业园区",
+    "lon": "121.50689",
+    "lat": "30.90649",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094757D06EAAFE4493",
+    "title": "幸福码头创意园区",
+    "lon": "121.5111",
+    "lat": "31.216562",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海中山南路1029号"
+  },
+  {
+    "poiid": "B2094654DA6AA6FA419D",
+    "title": "嘉定经济城",
+    "lon": "121.55308",
+    "lat": "31.1884",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6BA6FE409B",
+    "title": "普陀长风开业园区(白玉路)",
+    "lon": "121.41783",
+    "lat": "31.23032",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "白玉路454"
+  },
+  {
+    "poiid": "B2094654D464AAFC4699",
+    "title": "普陀星云经济区",
+    "lon": "121.39546",
+    "lat": "31.27491",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "真北路3199、3370号"
+  },
+  {
+    "poiid": "B2094654D468AAFF409F",
+    "title": "上海市外冈工业园区",
+    "lon": "121.18169",
+    "lat": "31.36611",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D468AAFF409C",
+    "title": "上海申冈经济发展区",
+    "lon": "121.18168",
+    "lat": "31.36612",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6BA1F9439E",
+    "title": "金桥出口加工区17号",
+    "lon": "121.59904",
+    "lat": "31.24931",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "新金桥路230(1-8)"
+  },
+  {
+    "poiid": "B2094654D469AAFF419B",
+    "title": "杨行工业园",
+    "lon": "121.41591",
+    "lat": "31.4025",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094750DA6FA6FC4699",
+    "title": "上海康桥先进制造技术创业园",
+    "lon": "121.604843",
+    "lat": "31.127601",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "浦东新区秀浦路2388号"
+  },
+  {
+    "poiid": "B2094654D469A6FB489A",
+    "title": "上海马陆丰登工业园",
+    "lon": "121.29267",
+    "lat": "31.35958",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "越秀区环市东路362-366号"
+  },
+  {
+    "poiid": "B2094654D469A0F5449D",
+    "title": "思达工业园",
+    "lon": "121.32939",
+    "lat": "31.33375",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D469A2FF4793",
+    "title": "上海中科高科技工业园",
+    "lon": "121.23872",
+    "lat": "31.35872",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "叶城路1411"
+  },
+  {
+    "poiid": "B2094654D469A2F8419A",
+    "title": "嘉定工业区经济城一园区",
+    "lon": "121.24845",
+    "lat": "31.3626",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "叶城路925"
+  },
+  {
+    "poiid": "B2094654DB6DA6F84293",
+    "title": "三灶工业园区物业部",
+    "lon": "121.71648",
+    "lat": "31.08411",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA6FA7F84598",
+    "title": "北外滩开业园区",
+    "lon": "121.503",
+    "lat": "31.2531",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "东大名路391号"
+  },
+  {
+    "poiid": "B2094750D56FA5FB4092",
+    "title": "易园国际新媒体产业园",
+    "lon": "121.44068851520535",
+    "lat": "31.154803408220406",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "徐汇区石龙路345弄23-27号"
+  },
+  {
+    "poiid": "B2094654DB6CA6F84398",
+    "title": "上海市科技创业中心孵化基地",
+    "lon": "121.43096",
+    "lat": "31.16045",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "钦州路100号"
+  },
+  {
+    "poiid": "B2094654DB6FA0F84099",
+    "title": "兰宝科技园",
+    "lon": "121.50835",
+    "lat": "31.00155",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6FA0F9479B",
+    "title": "闵行区水产技术示范基地",
+    "lon": "121.52603",
+    "lat": "30.99985",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6FA0F94392",
+    "title": "闵行区鲁汇苗木基地",
+    "lon": "121.51288",
+    "lat": "31.00728",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094655D264A0F44393",
+    "title": "上海交大慧谷信息园",
+    "lon": "121.42867",
+    "lat": "31.19554",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "番禺路951-3临"
+  },
+  {
+    "poiid": "B2094654DB6DA4F84192",
+    "title": "上海小昆山经济区(上海亿隆塑胶制品有限公司东)",
+    "lon": "121.1487",
+    "lat": "31.0289",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D56DAAF44292",
+    "title": "泾东工业园区",
+    "lon": "121.49419",
+    "lat": "31.26438",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "泾东路236号"
+  },
+  {
+    "poiid": "B2094654D56EA5FB419D",
+    "title": "杨浦平凉开业园区",
+    "lon": "121.52245",
+    "lat": "31.2519",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "杨树浦路622"
+  },
+  {
+    "poiid": "B2094654D465A4FD459E",
+    "title": "上海嘉定工业园区宝山招商总部",
+    "lon": "121.42293",
+    "lat": "31.30327",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "场中路3675号201室-202室"
+  },
+  {
+    "poiid": "B2094654DB6FABFC4493",
+    "title": "上海新发经济城",
+    "lon": "121.05712",
+    "lat": "30.93101",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094655D26DA1FF489D",
+    "title": "上海财经大学科技园招商中心",
+    "lon": "121.54256",
+    "lat": "31.24448",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "巨野路22号申城公寓2308室"
+  },
+  {
+    "poiid": "B2094654DB6DA5F54993",
+    "title": "上海练塘工业园区",
+    "lon": "121.06334",
+    "lat": "31.00025",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D56AABF8479C",
+    "title": "上海优乐加城市工业园",
+    "lon": "121.27223",
+    "lat": "31.21421",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6EA4F4469F",
+    "title": "上海都城经济园区(东城工商所南)",
+    "lon": "121.25994",
+    "lat": "31.01895",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "洞泾路10号"
+  },
+  {
+    "poiid": "B2094654D56CA2FA4692",
+    "title": "闸北芷江西开业园区",
+    "lon": "121.46724",
+    "lat": "31.24904",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "徐家宅路143"
+  },
+  {
+    "poiid": "B2094654D56CA2FB4699",
+    "title": "晟泰都市工业园区",
+    "lon": "121.46705",
+    "lat": "31.25013",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "虬江路1379"
+  },
+  {
+    "poiid": "B2094654DB6FA6F84499",
+    "title": "现代农业园区",
+    "lon": "121.79946",
+    "lat": "31.05286",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094655D26BABF4449C",
+    "title": "科教园区北区",
+    "lon": "121.78446",
+    "lat": "31.04899",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "人民东路22弄8号楼6层"
+  },
+  {
+    "poiid": "B2094654DB68A7FF489A",
+    "title": "杨王工业园区",
+    "lon": "121.50099",
+    "lat": "30.89419",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D569A2F54192",
+    "title": "上海高的东经济园区",
+    "lon": "121.63071",
+    "lat": "31.32667",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "高翔环路988号"
+  },
+  {
+    "poiid": "B2094654DB6DA6FD439D",
+    "title": "康桥工业区(康桥东路)",
+    "lon": "121.63565",
+    "lat": "31.16045",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "康桥东路1365弄1-32号"
+  },
+  {
+    "poiid": "B2094654DA6AA6FD4099",
+    "title": "同济大学学生素质教育孙桥实践基地",
+    "lon": "121.61495",
+    "lat": "31.16859",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D56FA1F44592",
+    "title": "五角场工业园区市京二分区",
+    "lon": "121.52044",
+    "lat": "31.32028",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "民京路781"
+  },
+  {
+    "poiid": "B2094654DA64ABFD459E",
+    "title": "横河工业园",
+    "lon": "121.27864",
+    "lat": "31.12875",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D469A0FB409D",
+    "title": "上海沪嘉经济城(嘉戬公路)",
+    "lon": "121.29592",
+    "lat": "31.37973",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D464A3FB409B",
+    "title": "市北工业园区",
+    "lon": "121.43766",
+    "lat": "31.29488",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "江场三路219"
+  },
+  {
+    "poiid": "B2094654D464A3FB4398",
+    "title": "市北工业园区创新集聚区",
+    "lon": "121.43747",
+    "lat": "31.29814",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "江场西路"
+  },
+  {
+    "poiid": "B2094654D464A3FB459C",
+    "title": "鑫协都市型工业园区",
+    "lon": "121.44245",
+    "lat": "31.29825",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "江场西路300号"
+  },
+  {
+    "poiid": "B2094654D464A3FB459F",
+    "title": "上海市小企业(生产力促进)服务中心都市型工业园区工作站(锦森欧洲大楼西北)",
+    "lon": "121.44245",
+    "lat": "31.29825",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "江场西路300号鑫协都市型工业园区"
+  },
+  {
+    "poiid": "B2094654D464A3FA4792",
+    "title": "市北工业园区都市信息园",
+    "lon": "121.43799",
+    "lat": "31.29608",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "江场三路305"
+  },
+  {
+    "poiid": "B2094654D464A3FB4693",
+    "title": "新理想工业园",
+    "lon": "121.44594",
+    "lat": "31.30011",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "万荣一路20号"
+  },
+  {
+    "poiid": "B2094654D464A3F44099",
+    "title": "人民都市型工业园",
+    "lon": "121.44523",
+    "lat": "31.29868",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "江场西路200"
+  },
+  {
+    "poiid": "B2094654D464A3FB4892",
+    "title": "增美都市工业园区",
+    "lon": "121.44607",
+    "lat": "31.29913",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "万荣一路15号"
+  },
+  {
+    "poiid": "B2094654D46AA7FB4693",
+    "title": "上海宝山都市科技工贸园区",
+    "lon": "121.495",
+    "lat": "31.39137",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "双城路351"
+  },
+  {
+    "poiid": "B2094654D468A4F54092",
+    "title": "上海沪太经济城(沪太路)",
+    "lon": "121.3358",
+    "lat": "31.42527",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA6BA5FF479B",
+    "title": "上海绿色科技园区(救护大队路)",
+    "lon": "121.1183",
+    "lat": "31.14744",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "救护大队路52号"
+  },
+  {
+    "poiid": "B2094654D568ABFE459E",
+    "title": "F20工业小区",
+    "lon": "121.61004",
+    "lat": "31.32533",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "德林路368"
+  },
+  {
+    "poiid": "B2094654D46AAAFF449A",
+    "title": "上海外联发D13工业园区(荷丹路)",
+    "lon": "121.60592",
+    "lat": "31.33197",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "荷丹路186-242"
+  },
+  {
+    "poiid": "B2094654D568A1FA449D",
+    "title": "F24园区(韩城路)",
+    "lon": "121.60247",
+    "lat": "31.33002",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "韩城路101"
+  },
+  {
+    "poiid": "B2094654D568ABFE4492",
+    "title": "F21园区",
+    "lon": "121.61273",
+    "lat": "31.32653",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "日樱北路199"
+  },
+  {
+    "poiid": "B2094654D46AAAFF479F",
+    "title": "上海外联发D12工业园区",
+    "lon": "121.60649",
+    "lat": "31.33446",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "泰谷路205-213号"
+  },
+  {
+    "poiid": "B2094654D46AAAF94293",
+    "title": "上海外联发D8工业园区(泰谷路)",
+    "lon": "121.59833",
+    "lat": "31.33338",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "泰谷路48号D8C-67号"
+  },
+  {
+    "poiid": "B2094654D46AAAF9499C",
+    "title": "上海外联发D8工业园区(美盛路)",
+    "lon": "121.59815",
+    "lat": "31.33578",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "美盛路61-63号"
+  },
+  {
+    "poiid": "B2094654D46BA3F4419E",
+    "title": "上海浦东竹园工业中心",
+    "lon": "121.6119",
+    "lat": "31.34057",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D56AA5FA4598",
+    "title": "上海富利经济城工业园",
+    "lon": "121.25625",
+    "lat": "31.24409",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "纪鹤路505弄"
+  },
+  {
+    "poiid": "B2094654D465A2FB499F",
+    "title": "曹杨工业公司创业新天地嘉琛园区",
+    "lon": "121.42763",
+    "lat": "31.25349",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "宁强路25号4层"
+  },
+  {
+    "poiid": "B2094654D468A7FA4692",
+    "title": "崇明现代农业园区",
+    "lon": "121.40367",
+    "lat": "31.62368",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "寒山寺路358号"
+  },
+  {
+    "poiid": "B2094654D468A7F54499",
+    "title": "上海城桥经济开发区",
+    "lon": "121.4038",
+    "lat": "31.63457",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D468A7FD479E",
+    "title": "上海三星经济开发区",
+    "lon": "121.28552",
+    "lat": "31.74737",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094655D26FA2F94499",
+    "title": "上海如日商务园",
+    "lon": "121.50713",
+    "lat": "31.15111",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上南路3855号"
+  },
+  {
+    "poiid": "B2094655D26FA7F4489F",
+    "title": "上海如日商务园(西门)",
+    "lon": "121.50601",
+    "lat": "31.15073",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上南路3855号"
+  },
+  {
+    "poiid": "B2094655D265A6F9449C",
+    "title": "800秀",
+    "lon": "121.44328",
+    "lat": "31.23363",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海静安区常德路800号(近昌平路)"
+  },
+  {
+    "poiid": "B2094654DB68ABF5479D",
+    "title": "金山区廊下镇工业区",
+    "lon": "121.18998",
+    "lat": "30.78697",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA6AAAF9409C",
+    "title": "东方协和塑料工业",
+    "lon": "121.69616",
+    "lat": "31.2124",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D569A5F5489F",
+    "title": "长征金江工业园",
+    "lon": "121.37017",
+    "lat": "31.23392",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "千阳路271弄1-20号"
+  },
+  {
+    "poiid": "B2094655D26FA5F94093",
+    "title": "张家软件园",
+    "lon": "121.59796",
+    "lat": "31.21035",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "郭守敬路498号"
+  },
+  {
+    "poiid": "B2094654DA6DAAF84899",
+    "title": "上海金山廊下经济开发区",
+    "lon": "121.44739",
+    "lat": "31.19763",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "肇嘉浜路825号尚秀商务楼2号楼3层-B2"
+  },
+  {
+    "poiid": "B2094654D56AA5FD4598",
+    "title": "上海西郊徐泾经济城",
+    "lon": "121.28247",
+    "lat": "31.16971",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "沪青平公路1818号"
+  },
+  {
+    "poiid": "B2094654DA6AA5FD4193",
+    "title": "中国芯科技园",
+    "lon": "121.59976",
+    "lat": "31.21329",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海张江"
+  },
+  {
+    "poiid": "B2094654DB68A1FE4898",
+    "title": "方大科技园",
+    "lon": "121.05041",
+    "lat": "30.89411",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA6AAAFF4292",
+    "title": "上海新发创运工业园(东胜路)",
+    "lon": "121.69203",
+    "lat": "31.24213",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "东胜路38号"
+  },
+  {
+    "poiid": "B2094654D56EA7F9489E",
+    "title": "上海纺织科技工业园",
+    "lon": "121.53138",
+    "lat": "31.25975",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海杨浦区平凉路988号"
+  },
+  {
+    "poiid": "B2094654DA6BA1FB4293",
+    "title": "青浦区市级千亩苗木基地",
+    "lon": "120.9817",
+    "lat": "31.08191",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D56FA7F54798",
+    "title": "杨浦江浦开业园区",
+    "lon": "121.54833",
+    "lat": "31.26978",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "隆昌路210号"
+  },
+  {
+    "poiid": "B2094654DA6AA0FD4499",
+    "title": "浦东火炬创业园",
+    "lon": "121.58089",
+    "lat": "31.20664",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "碧波路"
+  },
+  {
+    "poiid": "B2094654DA6AA0FD4293",
+    "title": "上海高校科技产业园",
+    "lon": "121.58201",
+    "lat": "31.20491",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "春晓路149"
+  },
+  {
+    "poiid": "B2094654D56BABFD4593",
+    "title": "晟星都市工业园区",
+    "lon": "121.38792",
+    "lat": "31.22334",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "云岭东路434"
+  },
+  {
+    "poiid": "B2094654DA68A0FB4398",
+    "title": "上海市桃花源经济园区",
+    "lon": "121.48368",
+    "lat": "31.21123",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "陆家浜路1332号南开大厦9层"
+  },
+  {
+    "poiid": "B2094654DB6EA0F94398",
+    "title": "上海莘闵高科技园区",
+    "lon": "121.36937",
+    "lat": "31.06384",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "光华路1508"
+  },
+  {
+    "poiid": "B2094654DB6EA6FC409A",
+    "title": "上海莘闵科技创业园",
+    "lon": "121.37053",
+    "lat": "31.07306",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "金都路4299"
+  },
+  {
+    "poiid": "B2094654DB6EABFD469F",
+    "title": "长江科技工业园区",
+    "lon": "121.38092",
+    "lat": "31.06733",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "光华路888号"
+  },
+  {
+    "poiid": "B2094654D568AAFE4192",
+    "title": "金桥出口加工区3-5号",
+    "lon": "121.61405",
+    "lat": "31.25906",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "金皖路55号(3-10)"
+  },
+  {
+    "poiid": "B2094654D568AAFD459C",
+    "title": "金条出口加工区",
+    "lon": "121.61141",
+    "lat": "31.26024",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "金海路550"
+  },
+  {
+    "poiid": "B2094654D568AAFC449B",
+    "title": "上海金陵金桥工业园区",
+    "lon": "121.61954",
+    "lat": "31.26097",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "金海路900"
+  },
+  {
+    "poiid": "B2094654DB6AAAF8419A",
+    "title": "同济大学国家大学科技园(密云路)",
+    "lon": "121.50033",
+    "lat": "31.28022",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "赤峰路65"
+  },
+  {
+    "poiid": "B2094655D26BA0FD4392",
+    "title": "凯旋都市工业园",
+    "lon": "121.44406",
+    "lat": "31.16748",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "凯旋南路31"
+  },
+  {
+    "poiid": "B2094654D56BA2FA4892",
+    "title": "上海嘉定工业开发区绿色经济城",
+    "lon": "121.41168",
+    "lat": "31.24221",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "曹杨路888号凯综商务楼211"
+  },
+  {
+    "poiid": "B2094654D56BA2F5499D",
+    "title": "上海嘉定工业区绿色经济城(中山北路)",
+    "lon": "121.4158",
+    "lat": "31.23993",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "中山北路2959号鼎升商务楼206"
+  },
+  {
+    "poiid": "B2094654D468A4F44792",
+    "title": "上海宝山经济发展区",
+    "lon": "121.32743",
+    "lat": "31.46471",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D468A4FA439B",
+    "title": "万头良种肉羊繁育基地",
+    "lon": "121.31655",
+    "lat": "31.46161",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D56FA4F8459B",
+    "title": "延吉经济园区印刷科技工业园",
+    "lon": "121.53917",
+    "lat": "31.28386",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "控江路665号10号楼"
+  },
+  {
+    "poiid": "B2094654D46BA6F4499A",
+    "title": "上海宝山城市工业园区(丰翔路)",
+    "lon": "121.35182",
+    "lat": "31.31054",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "丰翔路"
+  },
+  {
+    "poiid": "B2094654D46BA5FF439B",
+    "title": "经济开发区",
+    "lon": "121.35409",
+    "lat": "31.3173",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D46BABF5439C",
+    "title": "隧道股份陈太路基地",
+    "lon": "121.36999",
+    "lat": "31.32315",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D46BA7FC4099",
+    "title": "上海都市型工业示范区",
+    "lon": "121.36299",
+    "lat": "31.28709",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "真南路2548"
+  },
+  {
+    "poiid": "B2094654D46BAAF94999",
+    "title": "大场南大工业园",
+    "lon": "121.37016",
+    "lat": "31.29232",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "南大祁骆路18号"
+  },
+  {
+    "poiid": "B2094654D46BA7FD429E",
+    "title": "申润园",
+    "lon": "121.37098",
+    "lat": "31.285",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "古浪路1570弄"
+  },
+  {
+    "poiid": "B2094654DB65A0FA469A",
+    "title": "鑫宇都市园",
+    "lon": "121.3636",
+    "lat": "31.28231",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "常和路613弄"
+  },
+  {
+    "poiid": "B2094655D265A6FF409B",
+    "title": "莘朱路1389弄65号工业园",
+    "lon": "121.41714",
+    "lat": "31.12173",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "莘朱路1389弄65号"
+  },
+  {
+    "poiid": "B2094654D46BA5F9429C",
+    "title": "上海嘉宝南翔工业园区",
+    "lon": "121.33299",
+    "lat": "31.30469",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6EABF54199",
+    "title": "上海市莘庄工业区",
+    "lon": "121.39472",
+    "lat": "31.07947",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海市闵行区中春路1988号(近颛兴路)"
+  },
+  {
+    "poiid": "B2094654D46BA3FF4993",
+    "title": "上海外高桥造船基地",
+    "lon": "121.62666",
+    "lat": "31.34317",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6DAAF5439B",
+    "title": "上海良友经济开发区",
+    "lon": "121.24212",
+    "lat": "31.00266",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "松汇东路323"
+  },
+  {
+    "poiid": "B2094654DA6DA7FB4899",
+    "title": "上海崇明广福经济开发区",
+    "lon": "121.44917",
+    "lat": "31.19959",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "肇嘉浜路680号金钟大厦705"
+  },
+  {
+    "poiid": "B2094654DB6EAAF8489D",
+    "title": "飞乐股份闵行工业园区",
+    "lon": "121.42288",
+    "lat": "31.02786",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "剑川路920"
+  },
+  {
+    "poiid": "B2094654DB6EAAF8499A",
+    "title": "剑川工业园",
+    "lon": "121.42085",
+    "lat": "31.02722",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "剑川路940"
+  },
+  {
+    "poiid": "B2094654DB6EAAFC4293",
+    "title": "沧源工业区",
+    "lon": "121.42451",
+    "lat": "31.0217",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D568A2F84998",
+    "title": "杨浦都市工业经济园区",
+    "lon": "121.53756",
+    "lat": "31.33063",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "包头路1135"
+  },
+  {
+    "poiid": "B2094750DB6AA2FD499F",
+    "title": "上海M50创意园区",
+    "lon": "121.448632",
+    "lat": "31.247654",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "普陀区莫干山路50号"
+  },
+  {
+    "poiid": "B2094654DB6FABF94399",
+    "title": "泖港镇“双学双比”巾帼园基地",
+    "lon": "121.20926",
+    "lat": "30.93287",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA64A1F54399",
+    "title": "上海松江高科技园",
+    "lon": "121.30258",
+    "lat": "31.13141",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D568A3F8439F",
+    "title": "上海延吉经济园区航天新亚都市工业园",
+    "lon": "121.55636",
+    "lat": "31.2774",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "平凉路2716"
+  },
+  {
+    "poiid": "B2094654D568A3F84699",
+    "title": "上海延吉经济园区航天新亚都市工业园(北门)",
+    "lon": "121.55593",
+    "lat": "31.27749",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "平凉路2716"
+  },
+  {
+    "poiid": "B2094654D56FA7FB439B",
+    "title": "上海杨树浦复兴经济开发城二分部",
+    "lon": "121.55152",
+    "lat": "31.27519",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "平凉路2440"
+  },
+  {
+    "poiid": "B2094654DB65A2FE4198",
+    "title": "金汇泰磊经济园区",
+    "lon": "121.56501",
+    "lat": "30.9832",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "金汇镇泰青公路265号"
+  },
+  {
+    "poiid": "B2094757D569A2FB4399",
+    "title": "陆家嘴软件园10号楼",
+    "lon": "121.532019",
+    "lat": "31.21645752",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "中国上海市浦东新区"
+  },
+  {
+    "poiid": "B2094654D569A1FF4093",
+    "title": "上海东华海天青浦基地",
+    "lon": "121.12596",
+    "lat": "31.16483",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D56FA6F94092",
+    "title": "上海知识产权园",
+    "lon": "121.54929",
+    "lat": "31.26571",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "杨树浦路2310号"
+  },
+  {
+    "poiid": "B2094654DA65A6F5449C",
+    "title": "上海漕河泾开发区凤凰园(田州路)",
+    "lon": "121.39713",
+    "lat": "31.16232",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "田州路99"
+  },
+  {
+    "poiid": "B2094654DB64A2FA449A",
+    "title": "香樟园",
+    "lon": "121.40168",
+    "lat": "31.15811",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "东兰路248"
+  },
+  {
+    "poiid": "B2094655D265A3FE489F",
+    "title": "越界徐汇创意新天地",
+    "lon": "121.41225",
+    "lat": "31.17062",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "田林路140号"
+  },
+  {
+    "poiid": "B2094654D56BAAFC4292",
+    "title": "上海质量检测服务科技园",
+    "lon": "121.41105",
+    "lat": "31.17532",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "苍梧路381"
+  },
+  {
+    "poiid": "B2094655D265A5FD439E",
+    "title": "上海航天科技园区",
+    "lon": "121.41487",
+    "lat": "31.17613",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "桂林路408"
+  },
+  {
+    "poiid": "B2094654D56BAAF9479E",
+    "title": "田林工业园区",
+    "lon": "121.41271",
+    "lat": "31.1687",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "苍梧路25"
+  },
+  {
+    "poiid": "B2094654DB68AAFB419E",
+    "title": "浦东高东建安漕泾基地",
+    "lon": "121.41042",
+    "lat": "30.82873",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D46AAAFA4598",
+    "title": "汤臣工业园区",
+    "lon": "121.59449",
+    "lat": "31.33674",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "富特西一路381"
+  },
+  {
+    "poiid": "B2094654D46AA1FC4899",
+    "title": "上海淞南经济发展区",
+    "lon": "121.48031",
+    "lat": "31.33698",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D464A6FC4193",
+    "title": "上海多媒体谷",
+    "lon": "121.43946",
+    "lat": "31.27727",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "广中西路777弄"
+  },
+  {
+    "poiid": "B2094654DB68AAFA4893",
+    "title": "上海化学工业区",
+    "lon": "121.46523",
+    "lat": "30.81924",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB64A7FF449F",
+    "title": "上海化学工业区管理委员会一门式受理处",
+    "lon": "121.46619",
+    "lat": "30.81478",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB68AAFA439E",
+    "title": "上海海关驻化学工业区办事处",
+    "lon": "121.46704",
+    "lat": "30.81363",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "环华路8"
+  },
+  {
+    "poiid": "B2094654D568A3FC479C",
+    "title": "杨浦区商业委员会供销经济园区松花江路分部",
+    "lon": "121.54509",
+    "lat": "31.29725",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "松花江路2"
+  },
+  {
+    "poiid": "B2094654D56FA6F4459F",
+    "title": "上海长白经济园区晟华工业园",
+    "lon": "121.54299",
+    "lat": "31.29709",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "松花江路99号"
+  },
+  {
+    "poiid": "B2094654D568A2F4419C",
+    "title": "长白经济园区物资一机分园",
+    "lon": "121.55107",
+    "lat": "31.29283",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D569A1FC459B",
+    "title": "上海市农业科学院白鹤基地",
+    "lon": "121.10041",
+    "lat": "31.23618",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA6DA3FC4293",
+    "title": "上海交通大学国家大学科技园(虹桥路)",
+    "lon": "121.4318",
+    "lat": "31.19299",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "虹桥路333号慧谷高科技创业中心"
+  },
+  {
+    "poiid": "B2094654DA6DA3FC429C",
+    "title": "上海市软件产业基地交大徐汇软件园",
+    "lon": "121.4318",
+    "lat": "31.19298",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "虹桥路333号慧谷高科技创业中心"
+  },
+  {
+    "poiid": "B2094654DA6DAAFD499B",
+    "title": "城市应急科技园区",
+    "lon": "121.45561",
+    "lat": "31.20041",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "平江路48"
+  },
+  {
+    "poiid": "B2094655D26DAAFA4393",
+    "title": "上海未来岛高新技术产业园区",
+    "lon": "121.36917",
+    "lat": "31.26649",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "绥德路618"
+  },
+  {
+    "poiid": "B2094654D46BA7FF439F",
+    "title": "东盛工业园",
+    "lon": "121.36875",
+    "lat": "31.26656",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "绥德路628"
+  },
+  {
+    "poiid": "B2094655D264A4FA489F",
+    "title": "上海双柏工业园",
+    "lon": "121.45011",
+    "lat": "31.09087",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "双柏路518-520号"
+  },
+  {
+    "poiid": "B2094654DB6CA5FE4192",
+    "title": "上海欣梅工业",
+    "lon": "121.44288",
+    "lat": "31.08791",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6CA5FE419E",
+    "title": "上海爱华工业园",
+    "lon": "121.44347",
+    "lat": "31.08483",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6CA5FC459C",
+    "title": "迅豪科技产业园",
+    "lon": "121.44864",
+    "lat": "31.10086",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6FABFD4093",
+    "title": "石湖荡镇双学双化示范基地",
+    "lon": "121.11412",
+    "lat": "30.97615",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094655D265A7F94199",
+    "title": "闸北青年创业园区",
+    "lon": "121.46063",
+    "lat": "31.2935",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D56CA3FD449D",
+    "title": "粤彭工业园",
+    "lon": "121.46067",
+    "lat": "31.29323",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "汶水支路5号"
+  },
+  {
+    "poiid": "B2094654DB68A0F84992",
+    "title": "金山工业区",
+    "lon": "121.3418",
+    "lat": "30.84967",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "开乐大街158号"
+  },
+  {
+    "poiid": "B2094654DB68A0F9409F",
+    "title": "金山工业区农业技术推广服务中心",
+    "lon": "121.33531",
+    "lat": "30.84693",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6FA4F5419E",
+    "title": "练塘园区",
+    "lon": "121.06327",
+    "lat": "30.99315",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB69A6FC479B",
+    "title": "老港工业区",
+    "lon": "121.84293",
+    "lat": "31.04119",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "南汇区南港公路1765号"
+  },
+  {
+    "poiid": "B2094654DB6FA6F8439E",
+    "title": "上海永丽置业老港化工园区",
+    "lon": "121.84635",
+    "lat": "31.05696",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654D565A1F8419C",
+    "title": "静安创业园曹家渡分区",
+    "lon": "121.43175",
+    "lat": "31.22773",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "万航渡路767弄43号5号楼3层"
+  },
+  {
+    "poiid": "B2094654DA6BA2F4409F",
+    "title": "孙桥工业气体供应站",
+    "lon": "121.62982",
+    "lat": "31.1881",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6DAAFB409E",
+    "title": "松江工业区乐民经济城",
+    "lon": "121.25089",
+    "lat": "31.01713",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "荣乐东路123号"
+  },
+  {
+    "poiid": "B2094654DB6EA4FA429D",
+    "title": "中共上海市松江工业区委员会",
+    "lon": "121.25487",
+    "lat": "31.01694",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "荣乐东路81号"
+  },
+  {
+    "poiid": "B2094654DB6EA1FA419D",
+    "title": "天威工业城",
+    "lon": "121.2522",
+    "lat": "31.02134",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "俞塘路512号"
+  },
+  {
+    "poiid": "B2094654D56AA4FB4498",
+    "title": "华漕镇陈家角村工业园区2号门",
+    "lon": "121.2953",
+    "lat": "31.21555",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094655D26EA7FD4092",
+    "title": "上海国际中小企业城",
+    "lon": "121.30525",
+    "lat": "31.02468",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA6BABFE489E",
+    "title": "佘山民营经济开发区",
+    "lon": "121.18031",
+    "lat": "31.09501",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094751D56EA5FF439B",
+    "title": "波特营创意园",
+    "lon": "121.52143753442385",
+    "lat": "31.232316198751477",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "浦东新区商城路889号"
+  },
+  {
+    "poiid": "B2094654DB68AAFD489C",
+    "title": "上海市金山工业区",
+    "lon": "121.35702",
+    "lat": "30.74805",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6DA1FD489D",
+    "title": "奇士科技园",
+    "lon": "121.5317",
+    "lat": "31.09824",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094757D569A0F9489A",
+    "title": "漕河泾开发区浦江高科技园F区",
+    "lon": "121.52344048",
+    "lat": "31.09118462",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "中国上海市闵行区"
+  },
+  {
+    "poiid": "B2094757D568ABF94092",
+    "title": "上海漕河泾开发区创新创业园",
+    "lon": "121.519512",
+    "lat": "31.090923",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "新骏环路189号"
+  },
+  {
+    "poiid": "B2094654DB6CABF94399",
+    "title": "上海江川经济城(莘建东路)",
+    "lon": "121.38311",
+    "lat": "31.1105",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "莘建东路384"
+  },
+  {
+    "poiid": "B2094654DB6EA6FE439A",
+    "title": "科邦工业园",
+    "lon": "121.2999",
+    "lat": "31.00788",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DB6AA6F54098",
+    "title": "上海嘉园经济城",
+    "lon": "121.25059",
+    "lat": "31.39787",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "棋盘路1255"
+  },
+  {
+    "poiid": "B2094654DB6AA6F54199",
+    "title": "上海徐行经济城",
+    "lon": "121.25412",
+    "lat": "31.39367",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "环城路200"
+  },
+  {
+    "poiid": "B2094654D469A3FA4398",
+    "title": "上海水之园经济城",
+    "lon": "121.25094",
+    "lat": "31.39398",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "环城路601号"
+  },
+  {
+    "poiid": "B2094654DA6AA6F44092",
+    "title": "上少浦东软件园",
+    "lon": "121.6032",
+    "lat": "31.21091",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "哈雷路"
+  },
+  {
+    "poiid": "B2094654DA6CA5F94392",
+    "title": "上海机床科技工业园",
+    "lon": "121.45213",
+    "lat": "31.24007",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "淮安路681号"
+  },
+  {
+    "poiid": "B2094655D265A4FE479B",
+    "title": "静安都市工业园区",
+    "lon": "121.45104",
+    "lat": "31.2394",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "淮安路717"
+  },
+  {
+    "poiid": "B2094757D068AAFE459D",
+    "title": "华硕上海园区(pegatron)",
+    "lon": "121.61808206",
+    "lat": "31.137838843",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "上海市南汇区秀沿路3668号"
+  },
+  {
+    "poiid": "B2094654DB6EA1FA409E",
+    "title": "上海申田经济园区(荣乐中路)",
+    "lon": "121.23929",
+    "lat": "31.01806",
+    "category": "45",
+    "category_name": "产业园区",
+    "address": "荣乐中路12弄136号"
+  }
+]

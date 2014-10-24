@@ -26,7 +26,9 @@ namespace MergerJson
             string dateNow = DateTime.Now.ToString("yyyy_MM_dd");
             string timeNow = DateTime.Now.ToString("_hh_mm_ss");
             streamWriter = new StreamWriter(@"../../" + "/log" + "//log_" + dateNow + timeNow + ".txt", false);
-            DiffCategories();
+            //DiffCategories();
+            //ValidatePoiType();
+            MergeDataToJson();
             streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : finish!!!!");
             streamWriter.Close();
             Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : finish!!!!");
@@ -80,21 +82,32 @@ namespace MergerJson
         private static void ValidatePoiType()
         {
             //type1
+            //int[] typeArray = new int[]{
+            //    33,254,20,156,219,
+            //    45,252,52,671,678,
+            //    116,179,180,182,183,
+            //    184,185,186,187,188,
+            //    189,195,196,197,198,
+            //    199,200,201,202,203,
+            //    204,205,206,207,208,
+            //    220,221,222,223,224,
+            //    225,226,227,228,229,
+            //    230,231,232,233,234,
+            //    235,236,237,238,239,
+            //    240,243,244,245,246,
+            //    250,604,607,677,627,
+            //    628
+            //};
+            //type2
             int[] typeArray = new int[]{
-                33,254,20,156,219,
-                45,252,52,671,678,
+                33,252,
                 116,179,180,182,183,
                 184,185,186,187,188,
-                189,195,196,197,198,
+                195,196,197,198,
                 199,200,201,202,203,
                 204,205,206,207,208,
-                220,221,222,223,224,
-                225,226,227,228,229,
-                230,231,232,233,234,
-                235,236,237,238,239,
-                240,243,244,245,246,
-                250,604,607,677,627,
-                628
+                234,239,240,243,244,
+                245,246,607
             };
 
             List<int> typeList = new List<int>(typeArray);
@@ -137,32 +150,29 @@ namespace MergerJson
 
         private static void DiffCategories()
         {
-            //type1
+            //type1 
             int[] typeArray = new int[]{
-                33,254,20,156,219,
-                45,252,52,671,678,
+                33,252,
                 116,179,180,182,183,
                 184,185,186,187,188,
-                189,195,196,197,198,
+                195,196,197,198,
                 199,200,201,202,203,
                 204,205,206,207,208,
-                220,221,222,223,224,
-                225,226,227,228,229,
-                230,231,232,233,234,
-                235,236,237,238,239,
-                240,243,244,245,246,
-                250,604,607,677,627,
-                628
-            };
+                234,239,240,243,244,
+                245,246,607
+            }; 
+            //去掉254,20,156,219,45,52,671,678,189, 220,221,222,223,224,
+            //225,226,227,228,229,230,231,232,233,235,236,237,238,250,604,677,627,628
             List<int> typeList = new List<int>(typeArray);
             JArray ja = (JArray)JsonConvert.DeserializeObject(File.ReadAllText(@"../../output/type1/typetrue.json"));
-            foreach (int num in typeList)
-            {
-                string path = @"../../output/" + num;
-                if (!Directory.Exists(path))
-                {
-                    Directory.CreateDirectory(path);
-                }
+            //foreach (int num in typeList)
+            //{
+            int num = 628;
+                string path = @"../../output/45/";
+                //if (!Directory.Exists(path))
+                //{
+                //    Directory.CreateDirectory(path);
+                //}
                 JArray jaType = new JArray();
                 foreach (JObject jo in ja)
                 {
@@ -176,7 +186,24 @@ namespace MergerJson
                     streamWriter.WriteLine("jaType:" + DateTime.Now.ToLocalTime().ToString() + ";" + jaType.Count.ToString());
                     File.WriteAllText(path + "/" + num + ".json", jaType.ToString());
                 }
+            //}
+        }
+
+        private static void MergeDataToJson()
+        {
+            JArray ja = (JArray)JsonConvert.DeserializeObject(File.ReadAllText(@"../../output/type2/typetrue.json"));
+            JArray jaTrue = (JArray)JsonConvert.DeserializeObject(File.ReadAllText(@"../../output/true.json"));
+            Console.WriteLine("typetrue:" + DateTime.Now.ToLocalTime().ToString() + ";" + ja.Count.ToString());
+            streamWriter.WriteLine("typetrue:" + DateTime.Now.ToLocalTime().ToString() + ";" + ja.Count.ToString());
+            Console.WriteLine("true:" + DateTime.Now.ToLocalTime().ToString() + ";" + jaTrue.Count.ToString());
+            streamWriter.WriteLine("true:" + DateTime.Now.ToLocalTime().ToString() + ";" + jaTrue.Count.ToString());
+            foreach (JObject jo in jaTrue)
+            {
+                ja.Add(jo);
             }
+            Console.WriteLine("typetrue:" + DateTime.Now.ToLocalTime().ToString() + ";" + ja.Count.ToString());
+            streamWriter.WriteLine("typetrue:" + DateTime.Now.ToLocalTime().ToString() + ";" + ja.Count.ToString());
+            File.WriteAllText(@"../../" + "/output/true_final.json", ja.ToString());
         }
     }
 

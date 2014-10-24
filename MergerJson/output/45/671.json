@@ -1,0 +1,1091 @@
+[
+  {
+    "poiid": "B2094654DB6BA4FD4592",
+    "title": "上海音乐学院",
+    "lon": "121.45487",
+    "lat": "31.21309",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "徐汇区汾阳路20号(近复兴中路)"
+  },
+  {
+    "poiid": "B2094751D464ABF5419E",
+    "title": "上海理工大学中英国际学院",
+    "lon": "121.454946",
+    "lat": "31.2145127",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": null
+  },
+  {
+    "poiid": "B2094654D56BA4FA439C",
+    "title": "华东师范大学",
+    "lon": "121.40639",
+    "lat": "31.22835",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市普陀区中山北路3663号"
+  },
+  {
+    "poiid": "B2094757D068A7F44899",
+    "title": "上海中医药大学",
+    "lon": "121.449485",
+    "lat": "31.188716",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市浦东新区蔡伦路1200号"
+  },
+  {
+    "poiid": "B2094654DA6CA3F5449F",
+    "title": "上海大学高等技术学院",
+    "lon": "121.45289",
+    "lat": "31.2329",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "新闸路1220"
+  },
+  {
+    "poiid": "B2094757D16CAAF8489F",
+    "title": "中国科学院上海分院",
+    "lon": "121.45382308",
+    "lat": "31.203554409",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海岳阳路319号"
+  },
+  {
+    "poiid": "B2094752DA6CA4F5429A",
+    "title": "复旦大学",
+    "lon": "121.443138",
+    "lat": "31.2465",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": null
+  },
+  {
+    "poiid": "B2094654DA69AAFE409E",
+    "title": "上海交通职业技术学院",
+    "lon": "121.52048",
+    "lat": "31.23942",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "浦东大道2598号"
+  },
+  {
+    "poiid": "B2094757D06FA3FD419E",
+    "title": "上海体育学院",
+    "lon": "121.52434",
+    "lat": "31.31238",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "杨浦区长海路345号上海体育学院内(近嫩江路)"
+  },
+  {
+    "poiid": "B2094757D06FA7F94193",
+    "title": "中欧国际工商学院",
+    "lon": "121.59654",
+    "lat": "31.23702",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海浦东新区红枫路699号  "
+  },
+  {
+    "poiid": "B2094655D26DA5FF489D",
+    "title": "华东理工大学",
+    "lon": "121.425",
+    "lat": "31.14313",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "徐汇区梅陇路130号"
+  },
+  {
+    "poiid": "B2094654DA65ABF44893",
+    "title": "上海市经济管理干部学院",
+    "lon": "121.42602",
+    "lat": "31.14",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "徐汇区梅陇路161号(近天等路)"
+  },
+  {
+    "poiid": "B2094757D06FA7FA489D",
+    "title": "上海职工医学院",
+    "lon": "121.42727",
+    "lat": "31.14061",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海徐汇区梅陇路21号(近天等路)  "
+  },
+  {
+    "poiid": "B2094654DA65AAFC479D",
+    "title": "华东理工大学网络教育学院",
+    "lon": "121.42413",
+    "lat": "31.14062",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "徐汇区梅陇路166号(近嘉川路)"
+  },
+  {
+    "poiid": "B2094757D66CAAFB4699",
+    "title": "扬州大学",
+    "lon": "121.481796265",
+    "lat": "31.2266807556",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "扬州市大学南路80号"
+  },
+  {
+    "poiid": "B2094753D664A3FA4092",
+    "title": "复旦大学",
+    "lon": "121.479087",
+    "lat": "31.224962",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市 杨浦区邯郸路220号"
+  },
+  {
+    "poiid": "B2094654D56BA6FB409E",
+    "title": "上海电视大学长宁分校(水城路)",
+    "lon": "121.39194",
+    "lat": "31.20327",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "长宁区水城路68"
+  },
+  {
+    "poiid": "B2094757D06FA4F9409F",
+    "title": "上海医药职工大学",
+    "lon": "121.43099",
+    "lat": "31.21871",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "长宁区愚园路1088弄48号(近江苏路)"
+  },
+  {
+    "poiid": "B2094654D56DA3FF439A",
+    "title": "上海财经大学",
+    "lon": "121.4989",
+    "lat": "31.30643",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "杨浦区武川路111号"
+  },
+  {
+    "poiid": "B2094757D568A5FB439F",
+    "title": "中欧国际工商学院",
+    "lon": "121.3619",
+    "lat": "31.14384",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "红枫路699号"
+  },
+  {
+    "poiid": "B2094654DA6AAAFD4699",
+    "title": "上海民远职业技术学院",
+    "lon": "121.66107",
+    "lat": "31.19932",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "浦东新区唐陆公路3892号(近华夏东路)"
+  },
+  {
+    "poiid": "B2094757D06FA1FD4799",
+    "title": "上海城市管理职业技术学院",
+    "lon": "121.54669",
+    "lat": "31.32383",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "杨浦区军工路2360号(近森林公园)"
+  },
+  {
+    "poiid": "B2094655D26FA5FE4299",
+    "title": "东华大学(延安西路校区)",
+    "lon": "121.41384",
+    "lat": "31.20653",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市长宁区延安西路1882号"
+  },
+  {
+    "poiid": "B2094654DB65A3FC469F",
+    "title": "东华大学-莱佛士国际设计学院",
+    "lon": "121.4128",
+    "lat": "31.20497",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市长宁区延安西路1882号"
+  },
+  {
+    "poiid": "B2094757D66FA3F8489D",
+    "title": "東華大學",
+    "lon": "121.41400658",
+    "lat": "31.205343944",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市长宁区紫云路"
+  },
+  {
+    "poiid": "B2094753D669A6FF479F",
+    "title": "復旦大學",
+    "lon": "121.475532",
+    "lat": "31.158187",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市 邯鄲路"
+  },
+  {
+    "poiid": "B2094757D06FABFF459A",
+    "title": "上海科学技术职业学院",
+    "lon": "121.25723515",
+    "lat": "31.385574228",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "嘉定区金沙路280号"
+  },
+  {
+    "poiid": "B2094654D565A1F84198",
+    "title": "上海工艺美术职业学院",
+    "lon": "121.43133",
+    "lat": "31.22803",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "万航渡路767弄20号"
+  },
+  {
+    "poiid": "B2094757D068A0FD4792",
+    "title": "华东师范大学(闵行校区)",
+    "lon": "121.454761",
+    "lat": "31.024937",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "闵行区东川路500号华东师范大学内(近莲花南路)"
+  },
+  {
+    "poiid": "B2094757D164A4F5409C",
+    "title": "复旦大学继续教育学院",
+    "lon": "121.445919586",
+    "lat": "31.180968468",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海东安路130号"
+  },
+  {
+    "poiid": "B2094654DA69AAF9479C",
+    "title": "上海海事职业技术学院",
+    "lon": "121.52937",
+    "lat": "31.23919",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "浦东新区源深路158号(乳山路源深路)"
+  },
+  {
+    "poiid": "B2094757D16DA4FC489A",
+    "title": "国药大学",
+    "lon": "121.44348195",
+    "lat": "31.266903",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "普陀区沪太路801号(近延长中路)"
+  },
+  {
+    "poiid": "B2094655D26DA5F54593",
+    "title": "上海中医药大学",
+    "lon": "121.59185",
+    "lat": "31.19421",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "浦东新区蔡伦路1200号中医药大学内(近华佗路)"
+  },
+  {
+    "poiid": "B2094757D06FA7FF479D",
+    "title": "上海电影艺术学院",
+    "lon": "121.5907",
+    "lat": "31.19326",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海浦东新区张江高科技园区华佗路  "
+  },
+  {
+    "poiid": "B2094654D568A2F84298",
+    "title": "上海理工大学(军工路)",
+    "lon": "121.55195",
+    "lat": "31.29042",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "杨浦区军工路516号"
+  },
+  {
+    "poiid": "B2094654D568A2F8409D",
+    "title": "上海水产大学",
+    "lon": "121.55646",
+    "lat": "31.28675",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "杨浦区军工路334"
+  },
+  {
+    "poiid": "B2094757D06FA0F8409E",
+    "title": "上海海事大学",
+    "lon": "121.54098",
+    "lat": "31.242395",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "浦东新区浦东大道1550号上海海事大学院内(近民生路)"
+  },
+  {
+    "poiid": "B2094757D164A1F8409F",
+    "title": "上海工艺美术职业学院",
+    "lon": "121.174843",
+    "lat": "31.365073",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "嘉行公路851号"
+  },
+  {
+    "poiid": "B2094757D06FA7FA459E",
+    "title": "华东理工大学(奉贤校区)",
+    "lon": "121.506258",
+    "lat": "30.831053",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "近郊海思路999号"
+  },
+  {
+    "poiid": "B2094757D069A1FE459B",
+    "title": "上海旅游高等专科学校(奉贤校区)",
+    "lon": "121.513297187",
+    "lat": "30.837675898",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市奉贤区海思路500号"
+  },
+  {
+    "poiid": "B2094654DB6EA2F8449A",
+    "title": "上海外国语大学（松江校区）",
+    "lon": "121.22192",
+    "lat": "31.04948",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市松江区文翔路1550号"
+  },
+  {
+    "poiid": "B2094757D06FA4F4489A",
+    "title": "上海大学美术学院",
+    "lon": "121.39380055",
+    "lat": "31.312705599",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海宝山区上大路99号上海大学宝山校区"
+  },
+  {
+    "poiid": "B2094757D068A1FE4293",
+    "title": "上海大学(延长校区)",
+    "lon": "121.4596366",
+    "lat": "31.2729947",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "闸北区延长路149号上海大学内(近共和新路)"
+  },
+  {
+    "poiid": "B2094655D268A6FD4099",
+    "title": "东华大学理学院",
+    "lon": "121.21104",
+    "lat": "31.0567",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": ""
+  },
+  {
+    "poiid": "B2094757D06FA4FB439B",
+    "title": "上海商学院(徐汇校区)",
+    "lon": "121.429358",
+    "lat": "31.182399",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "徐汇区中山西路2271号(近宜家家居)"
+  },
+  {
+    "poiid": "B2094655D36DA6FF4899",
+    "title": "上海工会管理职业学院",
+    "lon": "121.40674",
+    "lat": "30.90347",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市奉贤区南亭公路2080,号"
+  },
+  {
+    "poiid": "B2094757D169A0FC4698",
+    "title": "上海交通大学",
+    "lon": "121.428832764",
+    "lat": "30.9100091098",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市闵行区经一路"
+  },
+  {
+    "poiid": "B2094654DA6AA6FC4093",
+    "title": "中国美术学院上海设计学院",
+    "lon": "121.58013",
+    "lat": "31.20628",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "张江高科园区"
+  },
+  {
+    "poiid": "B2094654DB68A2F44892",
+    "title": "上海电子信息职业技术学院",
+    "lon": "121.69371",
+    "lat": "30.92383",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "奉贤区奉城镇洪庙洪福大道"
+  },
+  {
+    "poiid": "B2094654DB68ABFE4192",
+    "title": "上海旅游高等专科学校",
+    "lon": "121.67642",
+    "lat": "30.87318",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "五四公路2011"
+  },
+  {
+    "poiid": "B2094751D568A3F5499F",
+    "title": "衢州学院",
+    "lon": "121.6140218",
+    "lat": "30.9235652",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": null
+  },
+  {
+    "poiid": "B2094757D568AAF54899",
+    "title": "上海外国语大学贤达经济人文学院",
+    "lon": "121.4844739",
+    "lat": "31.27817111",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "东体育会路390号"
+  },
+  {
+    "poiid": "B2094757D06FA5F4489C",
+    "title": "上外贤达经济人文学院",
+    "lon": "121.484745",
+    "lat": "31.277795",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海东体育会路390号"
+  },
+  {
+    "poiid": "B2094654DB65A4FE409B",
+    "title": "上海立信会计学院",
+    "lon": "121.19864",
+    "lat": "31.04493",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海近郊松江区文翔路2800号"
+  },
+  {
+    "poiid": "B2094654DB68A2FA439C",
+    "title": "上海中华职业技术学院",
+    "lon": "121.50714",
+    "lat": "30.97792",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "近郊大叶公路5225号(近浦星公路)"
+  },
+  {
+    "poiid": "B2094750DB6FA0FF4899",
+    "title": "华东政法大学",
+    "lon": "121.211563",
+    "lat": "31.046117",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": null
+  },
+  {
+    "poiid": "B2094757D068A5FD429E",
+    "title": "第二军医大学",
+    "lon": "121.51062395",
+    "lat": "31.306913729",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "杨浦区翔殷路800号"
+  },
+  {
+    "poiid": "B2094757D06FA3F5409B",
+    "title": "上海公安高等专科学校",
+    "lon": "121.51755523",
+    "lat": "31.377981185",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "浦东新区凌桥崇景路100号(三岔港)"
+  },
+  {
+    "poiid": "B2094757D06FA0F94692",
+    "title": "上海金融学院",
+    "lon": "121.6536383",
+    "lat": "31.2764308",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海上川路995号"
+  },
+  {
+    "poiid": "B2094654DB6BA1FA469B",
+    "title": "上海第二工业大学",
+    "lon": "121.65148",
+    "lat": "31.26086",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "浦东新区金海路2360号"
+  },
+  {
+    "poiid": "B2094654D569A3FF419E",
+    "title": "杉达大学(金海路)",
+    "lon": "121.66515",
+    "lat": "31.26829",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "浦东新区金海路2727号"
+  },
+  {
+    "poiid": "B2094655D26FA5FF4593",
+    "title": "上海金融学院",
+    "lon": "121.53621",
+    "lat": "31.31103",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "民星路465"
+  },
+  {
+    "poiid": "B2094757D06FA5F84498",
+    "title": "上海电机学院",
+    "lon": "121.4006195",
+    "lat": "31.000602722",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "闵行区江川路690号(近华宁路)"
+  },
+  {
+    "poiid": "B2094654DB6AAAFF469F",
+    "title": "上海外国语大学",
+    "lon": "121.48271",
+    "lat": "31.27654",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市虹口区大连西路550号"
+  },
+  {
+    "poiid": "B2094752D46CA5FC4792",
+    "title": "同济大学",
+    "lon": "121.529943",
+    "lat": "31.228333",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": null
+  },
+  {
+    "poiid": "B2094654DB65A2F84499",
+    "title": "上海医疗器械高等专科学校",
+    "lon": "121.53363",
+    "lat": "31.28903",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "营口路101"
+  },
+  {
+    "poiid": "B2094654DB65A4FE4793",
+    "title": "上海交通大学医学院",
+    "lon": "121.47212",
+    "lat": "31.21238",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市重庆南路227号"
+  },
+  {
+    "poiid": "B2094757D064A7FC479F",
+    "title": "上海第二医科大学",
+    "lon": "121.470434636",
+    "lat": "31.211727589",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海重庆南路227号"
+  },
+  {
+    "poiid": "B2094757D06FA3F8499B",
+    "title": "上海济光职业技术学院",
+    "lon": "121.44075607",
+    "lat": "31.363277037",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "宝山区水产路2859号(莲花山路水产路)"
+  },
+  {
+    "poiid": "B2094757D06FAAFA429C",
+    "title": "复旦大学上海医学院",
+    "lon": "121.452400191",
+    "lat": "31.1976300604",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海徐汇区医学院路130号"
+  },
+  {
+    "poiid": "B2094654DB6CA1F4499B",
+    "title": "上海体育职业学院",
+    "lon": "121.43032",
+    "lat": "31.14226",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海百色路1333号"
+  },
+  {
+    "poiid": "B2094757D06FA1FB419C",
+    "title": "上海工程技术大学(仙霞路校区)",
+    "lon": "121.396983",
+    "lat": "31.205297",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "长宁区虹桥开发区仙霞路350号"
+  },
+  {
+    "poiid": "B2094655D36CA6FF4498",
+    "title": "复旦大学",
+    "lon": "121.50346",
+    "lat": "31.29645",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市邯郸路220号"
+  },
+  {
+    "poiid": "B2094654DB6DA4FF499B",
+    "title": "华东政法学院(广富林路)",
+    "lon": "121.1954",
+    "lat": "31.05699",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": ""
+  },
+  {
+    "poiid": "B2094750D565A2FE4692",
+    "title": "上海民航职业技术学院",
+    "lon": "121.457061",
+    "lat": "31.17053",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市徐汇区龙华西路1号"
+  },
+  {
+    "poiid": "B2094757D66DABF8409E",
+    "title": "上海震旦职业学院",
+    "lon": "121.361549679",
+    "lat": "31.4120992483",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "宝山区罗店镇市一路88号(近月罗路)"
+  },
+  {
+    "poiid": "B2094654DA6AA6F84793",
+    "title": "杜兰大学",
+    "lon": "121.58499",
+    "lat": "31.19163",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "浦东新区达尔文路188"
+  },
+  {
+    "poiid": "B2094757D06BA6FC4993",
+    "title": "中国科学院",
+    "lon": "121.407004",
+    "lat": "31.161934",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海漕宝路500号"
+  },
+  {
+    "poiid": "B2094654DB6AA5F5479F",
+    "title": "上海工商学院",
+    "lon": "121.22241",
+    "lat": "31.24846",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "新凤北路565"
+  },
+  {
+    "poiid": "B2094654DB6FA6F9449B",
+    "title": "复旦大学太平洋金融学院",
+    "lon": "121.78161",
+    "lat": "31.05781",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "浦东新区惠南镇拱北路168号"
+  },
+  {
+    "poiid": "B2094751D56FA7F44092",
+    "title": "烟台大学",
+    "lon": "121.779801",
+    "lat": "31.05338",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": null
+  },
+  {
+    "poiid": "B2094757D06FA0F8469D",
+    "title": "复旦大学继续教育学院",
+    "lon": "121.51036071",
+    "lat": "31.290260314",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海四平路1931号"
+  },
+  {
+    "poiid": "B2094757D06FABFD459F",
+    "title": "东华大学(松江校区)",
+    "lon": "121.22101",
+    "lat": "31.05698",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海近郊松江区人民北路2999号  "
+  },
+  {
+    "poiid": "B2094757D06FA3FF4693",
+    "title": "上海电视大学(国顺校区)",
+    "lon": "121.51313",
+    "lat": "31.29115",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "杨浦区国顺路288号(近四平路)"
+  },
+  {
+    "poiid": "B2094750D56EA6FA4799",
+    "title": "上海开放大学",
+    "lon": "121.51308088360588",
+    "lat": "31.29142221201052",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "杨浦区国顺路288号"
+  },
+  {
+    "poiid": "B2094751D365A3F8439F",
+    "title": "宿州学院",
+    "lon": "121.5127521",
+    "lat": "31.2902195",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "安徽宿州学院东区"
+  },
+  {
+    "poiid": "B2094654DB6AA5F5489D",
+    "title": "同济大学(嘉定校区)",
+    "lon": "121.21611",
+    "lat": "31.28277",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "嘉定区曹安公路4800号(近嘉松北路)"
+  },
+  {
+    "poiid": "B2094757D06FA3FD449D",
+    "title": "同济大学(沪西校区)",
+    "lon": "121.39089202",
+    "lat": "31.269561767",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "普陀区真南路500号(近真北路)"
+  },
+  {
+    "poiid": "B2094654D465A3F4429D",
+    "title": "上海诚信学院",
+    "lon": "121.39097",
+    "lat": "31.26963",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "普陀区同济大学沪西校区行政办公楼"
+  },
+  {
+    "poiid": "B2094757D06FA1F9429E",
+    "title": "上海医药高等专科学校",
+    "lon": "121.61106",
+    "lat": "31.10307",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "浦东新区周祝公路279号(近沪南公路)"
+  },
+  {
+    "poiid": "B2094757D16BA0F8489A",
+    "title": "浙江传媒学院",
+    "lon": "121.34408837",
+    "lat": "31.348276978",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海浙江"
+  },
+  {
+    "poiid": "B2094757D168AAFA4199",
+    "title": "上海医疗器械高等专科学校",
+    "lon": "121.42613558",
+    "lat": "31.195460751",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海杨浦区营口路101号"
+  },
+  {
+    "poiid": "B2094750D56FA4F4439E",
+    "title": "沈阳航空航天大学",
+    "lon": "121.438339",
+    "lat": "31.408559",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "N-12"
+  },
+  {
+    "poiid": "B2094654DB64A1FF499F",
+    "title": "上海中侨职业技术学院(川周公路)",
+    "lon": "121.62335",
+    "lat": "31.14542",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "川周公路2788号"
+  },
+  {
+    "poiid": "B2094751D365A3FF459A",
+    "title": "成都大学",
+    "lon": "121.4542832",
+    "lat": "31.2198207",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": null
+  },
+  {
+    "poiid": "B2094751D46BA3F9459A",
+    "title": "上海对外经贸大学",
+    "lon": "121.2055277",
+    "lat": "31.0499415",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": null
+  },
+  {
+    "poiid": "B2094757D06FA2FC409F",
+    "title": "上海电力学院(平凉路校区)",
+    "lon": "121.5476",
+    "lat": "31.27139",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "杨浦区平凉路2103号(近隆昌路)"
+  },
+  {
+    "poiid": "B2094757D06FABF54493",
+    "title": "上海国家会计学院",
+    "lon": "121.288928",
+    "lat": "31.175844",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市青浦区蟠龙路200号"
+  },
+  {
+    "poiid": "B2094655D26FA2FB469E",
+    "title": "复旦大学网络教育学院",
+    "lon": "121.49413",
+    "lat": "31.29479",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海杨浦区邯郸路96号"
+  },
+  {
+    "poiid": "B2094752D36DA7FD4598",
+    "title": "同济大学",
+    "lon": "121.47591",
+    "lat": "31.22435",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市四平路1239号"
+  },
+  {
+    "poiid": "B2094654DB64A4FC469D",
+    "title": "上海交通大学(闵行校区)",
+    "lon": "121.43073",
+    "lat": "31.01765",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "闵行区东川路800号上海交通大学内(近永平路)"
+  },
+  {
+    "poiid": "B2094750D26DA6F5489F",
+    "title": "上海戏剧学院",
+    "lon": "121.440468",
+    "lat": "31.216885",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海静安区华山路630号(近华山医院)"
+  },
+  {
+    "poiid": "B2094751D364ABF54193",
+    "title": "大连理工大学城市学院",
+    "lon": "121.4028002",
+    "lat": "31.2305496",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": null
+  },
+  {
+    "poiid": "B2094654DB65A3F9409F",
+    "title": "同济大学",
+    "lon": "121.50083329447739",
+    "lat": "31.283135988567455",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市杨浦区四平路1239号"
+  },
+  {
+    "poiid": "B2094655D26CA6FC479C",
+    "title": "上海出版印刷高等专科学校",
+    "lon": "121.54317",
+    "lat": "31.28289",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "杨浦区内江路397号"
+  },
+  {
+    "poiid": "B2094654DB65A3F44792",
+    "title": "华东政法学院",
+    "lon": "121.54439",
+    "lat": "31.28488",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "杨浦区内江路462"
+  },
+  {
+    "poiid": "B2094751D464AAF84799",
+    "title": "湘潭大学",
+    "lon": "121.5611023",
+    "lat": "31.2587193",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "湖南省湘潭市雨湖区"
+  },
+  {
+    "poiid": "B2094654DA6CA6FA4499",
+    "title": "上海纺织工业职工大学",
+    "lon": "121.43294",
+    "lat": "31.23857",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "普陀区长寿路652号"
+  },
+  {
+    "poiid": "B2094654DA65A5FA499B",
+    "title": "中国科学院上海生命科学研究院",
+    "lon": "121.407",
+    "lat": "31.16193",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "漕宝路500号上海聚科生物园区"
+  },
+  {
+    "poiid": "B2094655D26FAAF9439C",
+    "title": "昂立学院",
+    "lon": "121.41632",
+    "lat": "31.17161",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": ""
+  },
+  {
+    "poiid": "B2094751D565A6FE4492",
+    "title": "复旦大学",
+    "lon": "121.5513831",
+    "lat": "31.2971055",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": null
+  },
+  {
+    "poiid": "B2094751DA6DA5FA4198",
+    "title": "上海电机学院",
+    "lon": "121.123007",
+    "lat": "30.998087",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "浦东新区橄榄路1350号"
+  },
+  {
+    "poiid": "B2094750DA6FA2F54493",
+    "title": "上海第二工业大学",
+    "lon": "121.395385",
+    "lat": "31.120998",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "金海路2360号"
+  },
+  {
+    "poiid": "B2094654D569AAFC439C",
+    "title": "长江商学院",
+    "lon": "121.36066",
+    "lat": "31.18813",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": ""
+  },
+  {
+    "poiid": "B2094654DA6EA6FC469A",
+    "title": "英国中兰开夏大学",
+    "lon": "121.48651",
+    "lat": "31.23046",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "河南南路16号中汇大厦3层"
+  },
+  {
+    "poiid": "B2094757D06FA7F8429A",
+    "title": "复旦大学管理学院",
+    "lon": "121.505914",
+    "lat": "31.296528",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海,上海市,上海市国顺路670号李达三楼4楼"
+  },
+  {
+    "poiid": "B2094752D468A0FA489A",
+    "title": "同濟大學",
+    "lon": "121.505366",
+    "lat": "31.296885",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": null
+  },
+  {
+    "poiid": "B2094751D36BA6F94593",
+    "title": "中国刑警学院",
+    "lon": "121.429868",
+    "lat": "31.3619983",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": null
+  },
+  {
+    "poiid": "B2094655D26FA3F4469B",
+    "title": "上海理工大学",
+    "lon": "121.37014",
+    "lat": "31.11311",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "上海市军工路516号"
+  },
+  {
+    "poiid": "B2094757D568A5FA479A",
+    "title": "上海师范大学",
+    "lon": "121.51972",
+    "lat": "31.02681",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": "奉炮公路553号"
+  },
+  {
+    "poiid": "B2094650D16AA6F4499E",
+    "title": "硅湖大学",
+    "lon": "121.14173",
+    "lat": "31.28257",
+    "category": "671",
+    "category_name": "高校中心点",
+    "address": ""
+  }
+]
