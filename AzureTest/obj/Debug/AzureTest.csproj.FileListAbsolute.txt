@@ -1,0 +1,9 @@
+D:\gitHub\getPoisFromWeibo\AzureTest\bin\Debug\AzureTest.exe.config
+D:\gitHub\getPoisFromWeibo\AzureTest\bin\Debug\AzureTest.exe
+D:\gitHub\getPoisFromWeibo\AzureTest\bin\Debug\AzureTest.pdb
+D:\gitHub\getPoisFromWeibo\AzureTest\bin\Debug\Microsoft.ServiceBus.dll
+D:\gitHub\getPoisFromWeibo\AzureTest\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+D:\gitHub\getPoisFromWeibo\AzureTest\bin\Debug\Microsoft.ServiceBus.xml
+D:\gitHub\getPoisFromWeibo\AzureTest\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+D:\gitHub\getPoisFromWeibo\AzureTest\obj\Debug\AzureTest.exe
+D:\gitHub\getPoisFromWeibo\AzureTest\obj\Debug\AzureTest.pdb

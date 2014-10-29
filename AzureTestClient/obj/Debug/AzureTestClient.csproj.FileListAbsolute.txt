@@ -1,0 +1,10 @@
+D:\gitHub\getPoisFromWeibo\AzureTestClient\bin\Debug\AzureTestClient.exe.config
+D:\gitHub\getPoisFromWeibo\AzureTestClient\obj\Debug\AzureTestClient.csprojResolveAssemblyReference.cache
+D:\gitHub\getPoisFromWeibo\AzureTestClient\bin\Debug\AzureTestClient.exe
+D:\gitHub\getPoisFromWeibo\AzureTestClient\bin\Debug\AzureTestClient.pdb
+D:\gitHub\getPoisFromWeibo\AzureTestClient\bin\Debug\Microsoft.ServiceBus.dll
+D:\gitHub\getPoisFromWeibo\AzureTestClient\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+D:\gitHub\getPoisFromWeibo\AzureTestClient\bin\Debug\Microsoft.ServiceBus.xml
+D:\gitHub\getPoisFromWeibo\AzureTestClient\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+D:\gitHub\getPoisFromWeibo\AzureTestClient\obj\Debug\AzureTestClient.exe
+D:\gitHub\getPoisFromWeibo\AzureTestClient\obj\Debug\AzureTestClient.pdb
