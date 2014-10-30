@@ -100,7 +100,7 @@ namespace MergerJson
             //};
             //type2
             int[] typeArray = new int[]{
-                33,252,
+                33,
                 116,179,180,182,183,
                 184,185,186,187,188,
                 195,196,197,198,
@@ -152,7 +152,7 @@ namespace MergerJson
         {
             //type1 
             int[] typeArray = new int[]{
-                33,252,
+                33,
                 116,179,180,182,183,
                 184,185,186,187,188,
                 195,196,197,198,
@@ -161,13 +161,13 @@ namespace MergerJson
                 234,239,240,243,244,
                 245,246,607
             }; 
-            //去掉254,20,156,219,45,52,671,678,189, 220,221,222,223,224,
+            //去掉252,254,20,156,219,45,52,671,678,189, 220,221,222,223,224,
             //225,226,227,228,229,230,231,232,233,235,236,237,238,250,604,677,627,628
             List<int> typeList = new List<int>(typeArray);
             JArray ja = (JArray)JsonConvert.DeserializeObject(File.ReadAllText(@"../../output/type1/typetrue.json"));
             //foreach (int num in typeList)
             //{
-            int num = 628;
+            int num = 252;
                 string path = @"../../output/45/";
                 //if (!Directory.Exists(path))
                 //{

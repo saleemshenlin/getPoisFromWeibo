@@ -1,0 +1,12 @@
+D:\GitHub\getPoisFromWeibo\GetDataWithAZure\bin\Debug\GetDataWithAZure.exe.config
+D:\GitHub\getPoisFromWeibo\GetDataWithAZure\bin\Debug\GetDataWithAZure.exe
+D:\GitHub\getPoisFromWeibo\GetDataWithAZure\bin\Debug\GetDataWithAZure.pdb
+D:\GitHub\getPoisFromWeibo\GetDataWithAZure\bin\Debug\Microsoft.ServiceBus.dll
+D:\GitHub\getPoisFromWeibo\GetDataWithAZure\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+D:\GitHub\getPoisFromWeibo\GetDataWithAZure\bin\Debug\NetDimension.Weibo.dll
+D:\GitHub\getPoisFromWeibo\GetDataWithAZure\bin\Debug\Microsoft.ServiceBus.xml
+D:\GitHub\getPoisFromWeibo\GetDataWithAZure\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+D:\GitHub\getPoisFromWeibo\GetDataWithAZure\bin\Debug\NetDimension.Weibo.pdb
+D:\GitHub\getPoisFromWeibo\GetDataWithAZure\bin\Debug\NetDimension.Weibo.xml
+D:\GitHub\getPoisFromWeibo\GetDataWithAZure\obj\Debug\GetDataWithAZure.exe
+D:\GitHub\getPoisFromWeibo\GetDataWithAZure\obj\Debug\GetDataWithAZure.pdb

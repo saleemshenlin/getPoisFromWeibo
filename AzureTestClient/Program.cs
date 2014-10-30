@@ -24,7 +24,7 @@ namespace AzureTestClient
 
                 String connectionString = @"Endpoint=sb://azuretest-ns.servicebus.chinacloudapi.cn/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=3HzV1a5bcs/OOj0YS+Iec7XPA9ys2s9oqrUrg8pcILA=";
 
-                QueueClient queueClient = QueueClient.CreateFromConnectionString(connectionString, "TSPQueue");
+                QueueClient queueClient = QueueClient.CreateFromConnectionString(connectionString, "weiboqueue");
 
                 BrokeredMessage message;
 
