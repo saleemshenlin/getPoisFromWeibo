@@ -56,7 +56,7 @@ namespace GetDataWithAZure
                 }
                 queueClient = QueueClient.CreateFromConnectionString(connectionString, queueName);
                 
-                Run();
+                Run(200);
                 Console.WriteLine("Final solution found!");
                 queueClient.Send(new BrokeredMessage("Complete"));
 
@@ -68,39 +68,44 @@ namespace GetDataWithAZure
                 Console.WriteLine("ServerBusyException encountered");
                 Console.WriteLine(serverBusyException.Message);
                 Console.WriteLine(serverBusyException.StackTrace);
-                Environment.Exit(-1);
+                int fileCount = GetFileCountFromDir(@"output/")+10;
+                Run(fileCount);
+                //Environment.Exit(-1);
             }
             catch (ServerErrorException serverErrorException)
             {
                 Console.WriteLine("ServerErrorException encountered");
                 Console.WriteLine(serverErrorException.Message);
                 Console.WriteLine(serverErrorException.StackTrace);
-                Environment.Exit(-1);
+                int fileCount = GetFileCountFromDir(@"output/")+10;
+                Run(fileCount);
+                //Environment.Exit(-1);
             }
             catch (Exception exception)
             {
                 Console.WriteLine("Exception encountered");
                 Console.WriteLine(exception.Message);
                 Console.WriteLine(exception.StackTrace);
-                Environment.Exit(-1);
+                int fileCount = GetFileCountFromDir(@"output/")+10;
+                Run(fileCount);
+                //Environment.Exit(-1);
             }
         }
 
-        internal static void Run()
+        internal static void Run(int startnum)
         {
             string dateNow = DateTime.Now.ToString("yyyy_MM_dd");
             string timeNow = DateTime.Now.ToString("_hh_mm_ss");
             streamWriter = new StreamWriter(@"log" + "//log_" + dateNow + timeNow + ".txt", false);
             InitWeiboOAuth(APPKEY, APPSECRET, ACCESSTOKEN);
             JArray jaInput = (JArray)JsonConvert.DeserializeObject(File.ReadAllText(@"input/mergeresult_final.json"));
-            int fileCount = GetFileCountFromDir(@"output/");
             int count = 0;
             foreach (JObject jo in jaInput)
             {
                 count++;
-                if (count >= 76)
+                if (count >= startnum)
                 {
-                    if (count <= 500)
+                    if (count <= 1000)
                     {
                         string poiId = jo["poiid"].ToString();
                         GetPoiTimelineToJson(poiId);
@@ -168,6 +173,7 @@ namespace GetDataWithAZure
                             MergeJArray(ja, jaMore);
                             Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " poiid: " + poiId + " pages:" + pageCount + " page:" + i);
                             queueClient.Send(new BrokeredMessage(DateTime.Now.ToLocalTime().ToString() + " pages:" + pageCount + " page:" + i));
+                            streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " pages:" + pageCount + " page:" + i);
                         }
                     }
                     File.WriteAllText(@"output" + "//" + poiId + ".json", ja.ToString());
