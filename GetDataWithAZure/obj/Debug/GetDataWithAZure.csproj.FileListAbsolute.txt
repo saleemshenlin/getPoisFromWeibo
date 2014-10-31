@@ -23,3 +23,4 @@ E:\github\getPoisFromWeibo\GetDataWithAZure\bin\Debug\Microsoft.WindowsAzure.Con
 E:\github\getPoisFromWeibo\GetDataWithAZure\bin\Debug\NetDimension.Weibo.pdb
 E:\github\getPoisFromWeibo\GetDataWithAZure\bin\Debug\NetDimension.Weibo.xml
 E:\github\getPoisFromWeibo\GetDataWithAZure\obj\Debug\GetDataWithAZure.csprojResolveAssemblyReference.cache
+D:\gitHub\getPoisFromWeibo\GetDataWithAZure\obj\Debug\GetDataWithAZure.csprojResolveAssemblyReference.cache

@@ -28,7 +28,7 @@ namespace AzureTestClient
 
                 BrokeredMessage message;
 
-                int waitMinutes = 3;  // Use as the default, if no value
+                int waitMinutes = 1;  // Use as the default, if no value
                 // is specified at command line.
 
                 if (0 != args.Length)

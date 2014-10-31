@@ -54,20 +54,25 @@ namespace GetDataWithAZure
                         Environment.Exit(0);
                     }
                 }
-                queueClient = QueueClient.CreateFromConnectionString(connectionString, queueName);
-                
-                Run(200);
+                //queueClient = QueueClient.CreateFromConnectionString(connectionString, queueName);
+                Run(305);
                 Console.WriteLine("Final solution found!");
-                queueClient.Send(new BrokeredMessage("Complete"));
+                //queueClient.Send(new BrokeredMessage("Complete"));
 
-                queueClient.Close();
-                Environment.Exit(0);
+                //queueClient.Close();
+                //Environment.Exit(0);
             }
             catch (ServerBusyException serverBusyException)
             {
                 Console.WriteLine("ServerBusyException encountered");
                 Console.WriteLine(serverBusyException.Message);
                 Console.WriteLine(serverBusyException.StackTrace);
+                if(streamWriter!=null)
+                {
+                    streamWriter.WriteLine(serverBusyException.Message);
+                    streamWriter.WriteLine(serverBusyException.StackTrace);
+                    streamWriter.Close();
+                }
                 int fileCount = GetFileCountFromDir(@"output/")+10;
                 Run(fileCount);
                 //Environment.Exit(-1);
@@ -77,6 +82,12 @@ namespace GetDataWithAZure
                 Console.WriteLine("ServerErrorException encountered");
                 Console.WriteLine(serverErrorException.Message);
                 Console.WriteLine(serverErrorException.StackTrace);
+                if (streamWriter != null)
+                {
+                    streamWriter.WriteLine(serverErrorException.Message);
+                    streamWriter.WriteLine(serverErrorException.StackTrace);
+                    streamWriter.Close();
+                }
                 int fileCount = GetFileCountFromDir(@"output/")+10;
                 Run(fileCount);
                 //Environment.Exit(-1);
@@ -86,6 +97,12 @@ namespace GetDataWithAZure
                 Console.WriteLine("Exception encountered");
                 Console.WriteLine(exception.Message);
                 Console.WriteLine(exception.StackTrace);
+                if (streamWriter != null)
+                {
+                    streamWriter.WriteLine(exception.Message);
+                    streamWriter.WriteLine(exception.StackTrace);
+                    streamWriter.Close();
+                }
                 int fileCount = GetFileCountFromDir(@"output/")+10;
                 Run(fileCount);
                 //Environment.Exit(-1);
@@ -105,17 +122,11 @@ namespace GetDataWithAZure
                 count++;
                 if (count >= startnum)
                 {
-                    if (count <= 1000)
-                    {
-                        string poiId = jo["poiid"].ToString();
-                        GetPoiTimelineToJson(poiId);
-                        Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : " + poiId + " Poi Count: " + count);
-                        queueClient.Send(new BrokeredMessage(DateTime.Now.ToLocalTime().ToString() + " : " + poiId + " Poi Count: " + count));
-                    }
-                    else
-                    {
-                        break;
-                    }
+                    string poiId = jo["poiid"].ToString();
+                    GetPoiTimelineToJson(poiId);
+                    Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : " + poiId + " Poi Count: " + count);
+                    queueClient.Send(new BrokeredMessage(DateTime.Now.ToLocalTime().ToString() + " : " + poiId + " Poi Count: " + count));
+                    streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : " + poiId + " Poi Count: " + count);
                 }
             }
             if (nullPoiList.Count > 0)
@@ -126,7 +137,7 @@ namespace GetDataWithAZure
                 {
                     Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : nullPoiList" + poiId);
                     queueClient.Send(new BrokeredMessage(DateTime.Now.ToLocalTime().ToString() + " :nullPoiList " + poiId));
-                    streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : nullPoiList" + poiId);
+                    
                 }
             }
             streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : finish!!!!");
@@ -145,7 +156,7 @@ namespace GetDataWithAZure
             {
                 SINA = new NetDimension.Weibo.Client(OAUTH);
                 Console.WriteLine(OAUTH.AccessToken); //还是来打印下AccessToken看看与前面方式获取的是不是一样的
-                streamWriter.WriteLine(OAUTH.AccessToken);
+                //streamWriter.WriteLine(OAUTH.AccessToken);
             }
         }
 
@@ -165,26 +176,30 @@ namespace GetDataWithAZure
                     if (totalNumber > 50)
                     {
                         double pageCount = Math.Ceiling(totalNumber / itemsNumber);
-                        for (int i = 2; i <= pageCount; i++)
+                        if (pageCount > 300)
                         {
-                            string jsonMore = GetPoiTimeLine(poiId, i);
-                            JObject jsonMoreO = (JObject)JsonConvert.DeserializeObject(jsonMore);
-                            JArray jaMore = (JArray)JsonConvert.DeserializeObject(jsonMoreO["statuses"].ToString());
-                            MergeJArray(ja, jaMore);
-                            Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " poiid: " + poiId + " pages:" + pageCount + " page:" + i);
-                            queueClient.Send(new BrokeredMessage(DateTime.Now.ToLocalTime().ToString() + " pages:" + pageCount + " page:" + i));
-                            streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " pages:" + pageCount + " page:" + i);
+                            for (int i = 2; i <= pageCount; i++)
+                            {
+                                string jsonMore = GetPoiTimeLine(poiId, i);
+                                JObject jsonMoreO = (JObject)JsonConvert.DeserializeObject(jsonMore);
+                                JArray jaMore = (JArray)JsonConvert.DeserializeObject(jsonMoreO["statuses"].ToString());
+                                MergeJArray(ja, jaMore);
+                                Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " poiid: " + poiId + " pages:" + pageCount + " page:" + i);
+                                //queueClient.Send(new BrokeredMessage(DateTime.Now.ToLocalTime().ToString() + " pages:" + pageCount + " page:" + i));
+                                //streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " pages:" + pageCount + " page:" + i);
+                            }
                         }
                     }
                     File.WriteAllText(@"output" + "//" + poiId + ".json", ja.ToString());
                     Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : " + poiId + " " + ja.Count);
-                    queueClient.Send(new BrokeredMessage(DateTime.Now.ToLocalTime().ToString() + " : " + poiId + " " + ja.Count));
-                    streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : " + poiId + " " + ja.Count);
+                    //queueClient.Send(new BrokeredMessage(DateTime.Now.ToLocalTime().ToString() + " : " + poiId + " " + ja.Count));
+                    //streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : " + poiId + " " + ja.Count);
                 }
             }
             else
             {
                 nullPoiList.Add(poiId);
+                Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : " + poiId);
             }
             
         }
@@ -216,6 +231,32 @@ namespace GetDataWithAZure
             DirectoryInfo dirInfo = new DirectoryInfo(dir);
             result = dirInfo.GetFiles().Length;
             return result;
+        }
+
+        public static void vaildData()
+        {
+            JArray ja = (JArray)JsonConvert.DeserializeObject(File.ReadAllText(@"input/mergeresult_final.json"));
+            JArray jaTemp = new JArray();
+            DirectoryInfo dirInfo = new DirectoryInfo(@"C:\Users\GIS-615\SkyDrive\论文&项目\研究生毕业论文\数据\GetPoiTimeLineWithAzure\原始数据");
+            foreach (JObject jo in ja)
+            {
+                int count = 0;
+                foreach (FileInfo file in dirInfo.GetFiles())
+                {
+                    string filename = file.Name.Substring(0, file.Name.Length - 5);
+                    if (jo["poiid"].ToString().Equals(filename))
+                    {
+                        count++;
+                        break;
+                    }
+                }
+                if (count == 0)
+                {
+                    jaTemp.Add(jo);
+                }
+            }
+
+            File.WriteAllText(@"output//nullData.json", jaTemp.ToString());
         }
     }
     
