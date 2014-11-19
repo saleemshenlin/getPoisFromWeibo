@@ -1,0 +1,8 @@
+D:\gitHub\getPoisFromWeibo\ExtractWeiboData\bin\Debug\ExtractWeiboData.exe.config
+D:\gitHub\getPoisFromWeibo\ExtractWeiboData\bin\Debug\ExtractWeiboData.exe
+D:\gitHub\getPoisFromWeibo\ExtractWeiboData\bin\Debug\ExtractWeiboData.pdb
+D:\gitHub\getPoisFromWeibo\ExtractWeiboData\bin\Debug\Newtonsoft.Json.dll
+D:\gitHub\getPoisFromWeibo\ExtractWeiboData\bin\Debug\Newtonsoft.Json.xml
+D:\gitHub\getPoisFromWeibo\ExtractWeiboData\obj\Debug\ExtractWeiboData.csprojResolveAssemblyReference.cache
+D:\gitHub\getPoisFromWeibo\ExtractWeiboData\obj\Debug\ExtractWeiboData.exe
+D:\gitHub\getPoisFromWeibo\ExtractWeiboData\obj\Debug\ExtractWeiboData.pdb
