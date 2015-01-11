@@ -1,0 +1,10 @@
+﻿{
+  "name": "NodejsDemoApp1",
+  "version": "0.0.0",
+  "description": "NodejsDemoApp1",
+  "main": "app.js",
+  "author": {
+    "name": "霖",
+    "email": ""
+  }
+}
