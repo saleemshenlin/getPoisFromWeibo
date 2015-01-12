@@ -1,4 +1,5 @@
-﻿var poiSchema = mongoose.Schema({
+﻿var mongoose = require('mongoose');
+var poiSchema = mongoose.Schema({
     poiid: String,
     title: String,
     lon: Number,
