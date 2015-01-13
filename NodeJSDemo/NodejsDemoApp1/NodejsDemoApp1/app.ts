@@ -2,8 +2,8 @@
 var fs = require('fs');
 var mongoose = require('mongoose');
 var cheerio = require('cheerio')
-var path = './datas';
-mongoose.connect('mongodb://59.78.138.14/weibo');
+var path = './data';
+mongoose.connect('mongodb://localhost/weibo');
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));

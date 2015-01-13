@@ -42,6 +42,7 @@
   <ItemGroup>
     <Folder Include="datas\" />
     <Folder Include="model\" />
+    <Folder Include="data\" />
     <Folder Include="Scripts\" />
     <Folder Include="Scripts\typings\" />
     <Folder Include="Scripts\typings\node\" />
