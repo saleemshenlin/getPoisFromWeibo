@@ -16,3 +16,12 @@ E:\github\getPoisFromWeibo\GetPoisFromWeibo\bin\Debug\NetDimension.Weibo.dll
 E:\github\getPoisFromWeibo\GetPoisFromWeibo\bin\Debug\NetDimension.Weibo.pdb
 E:\github\getPoisFromWeibo\GetPoisFromWeibo\bin\Debug\NetDimension.Weibo.xml
 E:\github\getPoisFromWeibo\GetPoisFromWeibo\obj\Debug\GetPoisFromWeibo.csprojResolveAssemblyReference.cache
+C:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\obj\Debug\GetPoisFromWeibo.exe
+C:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\obj\Debug\GetPoisFromWeibo.pdb
+C:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\bin\Debug\GetPoisFromWeibo.exe
+C:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\bin\Debug\GetPoisFromWeibo.pdb
+C:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\bin\Debug\log4net.dll
+C:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\bin\Debug\NetDimension.Weibo.dll
+C:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\bin\Debug\NetDimension.Weibo.pdb
+C:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\bin\Debug\NetDimension.Weibo.xml
+C:\GitHub\getPoisFromWeibo\GetPoisFromWeibo\obj\Debug\GetPoisFromWeibo.csprojResolveAssemblyReference.cache

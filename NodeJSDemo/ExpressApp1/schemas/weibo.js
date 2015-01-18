@@ -24,13 +24,13 @@ var weiboSchema = mongoose.Schema({
         lat: Number,
         lon: Number
     }
-});
+},{ collection: 'weibo'});
 weiboSchema.statics = {
     fetch: function (cb){
         return this
             .find({})
-            .sort('created_at')
-            .limit(10)
+            .sort('-created_at')
+            .limit(500)
             .exec(cb)
     },
     findById: function (id, cb){
@@ -41,7 +41,14 @@ weiboSchema.statics = {
     fetchDate: function(startdate,enddate,cb){
         return this
             .find({'created_at':{$gte:startdate,$lte:enddate}})
-            .sort('created_at')
+            .sort('-created_at')
+            .exec(cb)
+    },
+    fetchByAnnoID: function (annoid, cb){
+        return this
+            .find({'annotations.poiid': annoid})
+            .sort('-created_at')
+            .limit(1)
             .exec(cb)
     }
 }

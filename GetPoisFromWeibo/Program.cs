@@ -44,11 +44,11 @@ namespace GetPoisFromWeibo
         {
             string dateNow = DateTime.Now.ToString("yyyy_MM_dd");
             string timeNow = DateTime.Now.ToString("_hh_mm_ss");
-            streamWriter = new StreamWriter(@"../../" + "/log" + "//log_" + dateNow + timeNow + ".txt", false);
+            //streamWriter = new StreamWriter(@"../../" + "/log" + "//log_" + dateNow + timeNow + ".txt", false);
             InitWeiboOAuth(APPKEY_2, APPSECRET_2, ACCESSTOKEN_2);
             GetPoisCategory();
-            streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : finish!!!!");
-            streamWriter.Close();
+            //streamWriter.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : finish!!!!");
+            //streamWriter.Close();
             Console.WriteLine(DateTime.Now.ToLocalTime().ToString() + " : finish!!!!");
         }
         /// <summary>
@@ -62,7 +62,7 @@ namespace GetPoisFromWeibo
             {
                 SINA = new NetDimension.Weibo.Client(OAUTH);
                 Console.WriteLine(OAUTH.AccessToken); //还是来打印下AccessToken看看与前面方式获取的是不是一样的
-                streamWriter.WriteLine(OAUTH.AccessToken);
+                //streamWriter.WriteLine(OAUTH.AccessToken);
             }
         }
 
@@ -211,7 +211,7 @@ namespace GetPoisFromWeibo
                 new WeiboParameter("pid", "0"),
                 new WeiboParameter("flag", "1"));
             JArray ja = (JArray)JsonConvert.DeserializeObject(json);
-            File.WriteAllText(@"../../" + "/output/poi_category.json", ja.ToString());
+            //File.WriteAllText(@"../../" + "/output/poi_category.json", ja.ToString());
         }
     }
 }

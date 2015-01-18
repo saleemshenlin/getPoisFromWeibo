@@ -7,7 +7,7 @@ var poiSchema = mongoose.Schema({
     category: Number,
     category_name: String,
     address: String
-});
+}, { collection: 'pois'});
 
 poiSchema.methods.print = function () {
     var printName = this.title
@@ -20,7 +20,7 @@ poiSchema.statics = {
     fetch:function(cb){
         return this
             .find({})
-            .limit(5)
+            .limit(15)
             .exec(cb)
     }
 }

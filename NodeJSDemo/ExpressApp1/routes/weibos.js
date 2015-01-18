@@ -8,7 +8,7 @@ mongoose.connect('mongodb://192.168.199.111/weibo');
 router.get('/', function (req, res) {
     var startDate = new Date(2013,4,1);
     var endDate = new Date(2013,4,2);
-    Weibo.fetchDate(startDate,endDate,function (err, weibos) {
+    Weibo.fetch(function (err, weibos) {
         if (err) {
             console.error(err);
         }
