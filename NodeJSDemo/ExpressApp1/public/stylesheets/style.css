@@ -1,0 +1,13 @@
+body {
+  padding: 10px;
+  font: 14px "Microsoft YaHei", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+th {
+  text-align: center;
+}
+td {
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+﻿extends ../layout
+
+block content
+  .container
+    table.table.table-striped.weibo-list
+      thead
+        tr
+          th 微博ID
+          th 用户ID
+          th 用户注册地
+          th 创建时间
+          th 签到点
+          th 经度
+          th 纬度
+          th 微博详情
+       tbody
+         each item in weibos
+           tr
+             td #{item.weibo_id}
+             td #{item.user.id}
+             td #{item.user.location}
+             td #{item.created_at}
+             td #{item.annotations.poiid}
+             td #{item.geo.lon}
+             td #{item.geo.lat}
+             td
+               a(target="_blank",href="../weibodetail/#{item.weibo_id}") 
+                 span.glyphicon.glyphicon-info-sign 
