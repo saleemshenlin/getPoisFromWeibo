@@ -11,3 +11,17 @@ th {
 td {
   text-align: center;
 }
+.map>.col-md-3 {
+  padding-left: 0;
+  padding-right: 10px;
+}
+.map>.col-md-9 {
+  padding: 0;
+}
+.map-list {
+  height: 600px;
+}
+.map-content {
+  height: 600px;
+  width: 100%;
+}

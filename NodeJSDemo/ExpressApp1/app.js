@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var weibos = require('./routes/weibos');
 var weiboinsert = require('./routes/weiboinsert.js');
+var fetchbydate = require('./routes/fetchbydate.js');
 
 var app = express();
 
@@ -27,6 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/weibos', weibos);
 app.use('/weiboinsert', weiboinsert);
+app.use('/fetchbydate', fetchbydate);
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
     var err = new Error('Not Found');

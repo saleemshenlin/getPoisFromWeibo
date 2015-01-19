@@ -1,6 +1,27 @@
 ﻿extends ../layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .container
+   .row.map
+    .col-md-3
+     .panel.panel-default
+      .panel-heading 选择列表
+      .panel-body
+       .div.map-list
+        //label.col-md-2.control-label(for='dtp_input1') 日期选择
+        .input-group.date.form_datetime(data-date-format='yyyy年Mdd日',data-link-field='dtp_input1')
+         input.form-control(type='text',size='16',readonly)
+         span.input-group-addon
+          span.glyphicon.glyphicon-remove
+         span.input-group-addon
+          span.glyphicon.glyphicon-th
+        input#dtp_input1(type='hidden') 
+    .col-md-9
+     .panel.panel-default
+      .panel-heading 地图内容
+      .panel-body
+       .div#map-content.map-content
+
+
+
   
