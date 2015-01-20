@@ -36,6 +36,7 @@
     <Compile Include="public\javascripts\bootstrap.min.js" />
     <Compile Include="public\javascripts\jquery.min.js" />
     <Compile Include="models\weibo.js" />
+    <Compile Include="routes\fetchbydate.js" />
     <Compile Include="routes\weiboinsert.js" />
     <Compile Include="schemas\poi.js" />
     <Compile Include="schemas\weibo.js" />

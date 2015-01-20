@@ -729,7 +729,7 @@ var BMapLib = window.BMapLib = BMapLib || {};
 
     HeatmapOverlay.prototype.draw = function() {
 
-        var currentBounds = map.getBounds();
+        var currentBounds = this._map.getBounds();
 
         if (currentBounds.equals(this.bounds)) {
             return;
@@ -816,7 +816,7 @@ var BMapLib = window.BMapLib = BMapLib || {};
      */
     HeatmapOverlay.prototype.setDataSet = function(data) {
 
-        var currentBounds = map.getBounds();
+        var currentBounds = this._map.getBounds();
         var mapdata = {
             max: data.max,
             data: []
