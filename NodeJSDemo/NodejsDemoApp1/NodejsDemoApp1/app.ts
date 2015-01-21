@@ -3,7 +3,7 @@ var fs = require('fs');
 var mongoose = require('mongoose');
 //var cheerio = require('cheerio')
 //var path = './data';
-mongoose.connect('mongodb://59.78.138.14/weibo');
+mongoose.connect('mongodb://192.168.199.111/weibo');
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
