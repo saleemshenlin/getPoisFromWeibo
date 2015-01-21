@@ -2,6 +2,11 @@
 
 block content
   .container
+   .row
+    .col-md-12
+     .progress
+      .progress-bar.progress-bar-striped.progress-bar-success.active(role='progressbar',aria-valuenow='100',aria-valuemin='0',aria-valuemax='100',style='width:100%')
+       span.sr-only 100% Complete
    .row.map
     .col-md-3
      .panel.panel-default
@@ -9,11 +14,25 @@ block content
       .panel-body
        .div.map-list
         //label.col-md-2.control-label(for='dtp_input1') 日期选择
-        .input-group.date.form_datetime(data-date-format='yyyy年Mdd日',data-date="2013-01-01",data-link-field='dtp_input1')
+        .input-group.date.form_datetime(data-date-format='yyyy-mm-dd',data-date="2013-01-01",data-link-field='dtp_input1')
          input.form-control(type='text',size='16',readonly)
          span.input-group-addon
           span.glyphicon.glyphicon-th
-        input#dtp_input1(type='hidden') 
+        input#dtp_input1(type='hidden')
+        ul.nav.nav-pills.nav-stacked.map-area-list
+         li.active(role='presentation')
+          a(href='#') 全市
+          input.area-id(type='hidden',value='0')
+          input.area-lng(type='hidden',value='121.45')
+          input.area-lat(type='hidden',value='31.24')
+          input.area-zoom(type='hidden',value='11')
+         each area in areas
+          li(role='presentation')
+           a(href='#') #{area.title}
+           input.area-id(type='hidden',value='#{area.area_id}')
+           input.area-lng(type='hidden',value='#{area.geo.lon}')
+           input.area-lat(type='hidden',value='#{area.geo.lat}')
+           input.area-zoom(type='hidden',value='15')
     .col-md-9
      .panel.panel-default
       .panel-heading 地图内容

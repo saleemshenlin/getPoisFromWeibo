@@ -71,7 +71,7 @@ var HeatmapOverlay = L.Layer.extend({
   _update: function() {
     var bounds, zoom, scale;
 
-    bounds = this._map.getBounds();
+    bounds = polyData.length === 0 ? this._map.getBounds() : polygonLayer.getBounds(); //this._map.getBounds();//
     zoom = this._map.getZoom();
     scale = Math.pow(2, zoom);
 

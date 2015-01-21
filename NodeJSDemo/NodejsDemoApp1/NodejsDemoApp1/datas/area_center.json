@@ -1,0 +1,360 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "OBJECTID" : "OBJECTID",
+    "TYPEID" : "TYPEID",
+    "NAME" : "NAME",
+    "ORIG_FID" : "ORIG_FID",
+    "lng" : "lng",
+    "lat" : "lat"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "OBJECTID"
+    },
+    {
+      "name" : "TYPEID",
+      "type" : "esriFieldTypeString",
+      "alias" : "TYPEID",
+      "length" : 255
+    },
+    {
+      "name" : "NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NAME",
+      "length" : 50
+    },
+    {
+      "name" : "ORIG_FID",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "ORIG_FID"
+    },
+    {
+      "name" : "lng",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "lng"
+    },
+    {
+      "name" : "lat",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "lat"
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "OBJECTID" : 1,
+        "TYPEID" : "101010",
+        "NAME" : "顾村公园热区",
+        "ORIG_FID" : 1,
+        "lng" : 121.37353491800002,
+        "lat" : 31.338252358000034
+      },
+      "geometry" : {
+        "x" : 121.37353491800002,
+        "y" : 31.338252358000034
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 2,
+        "TYPEID" : "111",
+        "NAME" : "世纪公园热区",
+        "ORIG_FID" : 2,
+        "lng" : 121.5451337290001,
+        "lat" : 31.219077969000068
+      },
+      "geometry" : {
+        "x" : 121.5451337290001,
+        "y" : 31.219077969000068
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 3,
+        "TYPEID" : "111111",
+        "NAME" : "上海赛车场热区",
+        "ORIG_FID" : 3,
+        "lng" : 121.22372291900001,
+        "lat" : 31.333818977000078
+      },
+      "geometry" : {
+        "x" : 121.22372291900001,
+        "y" : 31.333818977000078
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 4,
+        "TYPEID" : "121212",
+        "NAME" : "共青森林公园热区",
+        "ORIG_FID" : 4,
+        "lng" : 121.55147063100003,
+        "lat" : 31.31844022100006
+      },
+      "geometry" : {
+        "x" : 121.55147063100003,
+        "y" : 31.31844022100006
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 5,
+        "TYPEID" : "131313",
+        "NAME" : "古猗园热区",
+        "ORIG_FID" : 5,
+        "lng" : 121.31733982000003,
+        "lat" : 31.291394220000029
+      },
+      "geometry" : {
+        "x" : 121.31733982000003,
+        "y" : 31.291394220000029
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 6,
+        "TYPEID" : "141414",
+        "NAME" : "大宁热区",
+        "ORIG_FID" : 6,
+        "lng" : 121.44798060900007,
+        "lat" : 31.278482663000034
+      },
+      "geometry" : {
+        "x" : 121.44798060900007,
+        "y" : 31.278482663000034
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 7,
+        "TYPEID" : "151515",
+        "NAME" : "豫园热区",
+        "ORIG_FID" : 7,
+        "lng" : 121.49231783400012,
+        "lat" : 31.224931808000065
+      },
+      "geometry" : {
+        "x" : 121.49231783400012,
+        "y" : 31.224931808000065
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 8,
+        "TYPEID" : "161616",
+        "NAME" : "上海动物园热区",
+        "ORIG_FID" : 8,
+        "lng" : 121.36691709600007,
+        "lat" : 31.19218664300007
+      },
+      "geometry" : {
+        "x" : 121.36691709600007,
+        "y" : 31.19218664300007
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 9,
+        "TYPEID" : "171717",
+        "NAME" : "上海植物园热区",
+        "ORIG_FID" : 9,
+        "lng" : 121.4437731910001,
+        "lat" : 31.145537236000052
+      },
+      "geometry" : {
+        "x" : 121.4437731910001,
+        "y" : 31.145537236000052
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 10,
+        "TYPEID" : "181818",
+        "NAME" : "锦江乐园热区",
+        "ORIG_FID" : 10,
+        "lng" : 121.41231371800006,
+        "lat" : 31.141676097000072
+      },
+      "geometry" : {
+        "x" : 121.41231371800006,
+        "y" : 31.141676097000072
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 11,
+        "TYPEID" : "191919",
+        "NAME" : "东平国家森林公园热区",
+        "ORIG_FID" : 11,
+        "lng" : 121.48141669200004,
+        "lat" : 31.674386325000057
+      },
+      "geometry" : {
+        "x" : 121.48141669200004,
+        "y" : 31.674386325000057
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 12,
+        "TYPEID" : "202020",
+        "NAME" : "东方绿舟朱家角热区",
+        "ORIG_FID" : 12,
+        "lng" : 121.03831867200006,
+        "lat" : 31.112030775000051
+      },
+      "geometry" : {
+        "x" : 121.03831867200006,
+        "y" : 31.112030775000051
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 13,
+        "TYPEID" : "212121",
+        "NAME" : "滨江森林公园热区",
+        "ORIG_FID" : 13,
+        "lng" : 121.52352844100005,
+        "lat" : 31.383895786000039
+      },
+      "geometry" : {
+        "x" : 121.52352844100005,
+        "y" : 31.383895786000039
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 14,
+        "TYPEID" : "222",
+        "NAME" : "世博园热区",
+        "ORIG_FID" : 14,
+        "lng" : 121.49129650600003,
+        "lat" : 31.186817250000047
+      },
+      "geometry" : {
+        "x" : 121.49129650600003,
+        "y" : 31.186817250000047
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 15,
+        "TYPEID" : "222222",
+        "NAME" : "黄兴公园热区",
+        "ORIG_FID" : 15,
+        "lng" : 121.53030598400005,
+        "lat" : 31.291786654000077
+      },
+      "geometry" : {
+        "x" : 121.53030598400005,
+        "y" : 31.291786654000077
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 16,
+        "TYPEID" : "333",
+        "NAME" : "徐家汇热区",
+        "ORIG_FID" : 16,
+        "lng" : 121.44062105300009,
+        "lat" : 31.192810321000024
+      },
+      "geometry" : {
+        "x" : 121.44062105300009,
+        "y" : 31.192810321000024
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 17,
+        "TYPEID" : "444",
+        "NAME" : "陆家嘴热区",
+        "ORIG_FID" : 17,
+        "lng" : 121.49980987600009,
+        "lat" : 31.239006409000069
+      },
+      "geometry" : {
+        "x" : 121.49980987600009,
+        "y" : 31.239006409000069
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 18,
+        "TYPEID" : "555",
+        "NAME" : "外滩热区",
+        "ORIG_FID" : 18,
+        "lng" : 121.48772891100009,
+        "lat" : 31.239219499000058
+      },
+      "geometry" : {
+        "x" : 121.48772891100009,
+        "y" : 31.239219499000058
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 19,
+        "TYPEID" : "666",
+        "NAME" : "静安寺热区",
+        "ORIG_FID" : 19,
+        "lng" : 121.44941283300011,
+        "lat" : 31.22525913100003
+      },
+      "geometry" : {
+        "x" : 121.44941283300011,
+        "y" : 31.22525913100003
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 20,
+        "TYPEID" : "777",
+        "NAME" : "人民广场热区",
+        "ORIG_FID" : 20,
+        "lng" : 121.4747138140001,
+        "lat" : 31.231257516000028
+      },
+      "geometry" : {
+        "x" : 121.4747138140001,
+        "y" : 31.231257516000028
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 21,
+        "TYPEID" : "888",
+        "NAME" : "新天地热区",
+        "ORIG_FID" : 21,
+        "lng" : 121.46576587900006,
+        "lat" : 31.213303683000049
+      },
+      "geometry" : {
+        "x" : 121.46576587900006,
+        "y" : 31.213303683000049
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 22,
+        "TYPEID" : "999",
+        "NAME" : "美兰湖热区",
+        "ORIG_FID" : 22,
+        "lng" : 121.35395554100012,
+        "lat" : 31.398923978000028
+      },
+      "geometry" : {
+        "x" : 121.35395554100012,
+        "y" : 31.398923978000028
+      }
+    }
+  ]
+}
