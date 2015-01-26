@@ -9,6 +9,8 @@ var routes = require('./routes/index');
 var weibos = require('./routes/weibos');
 var weiboinsert = require('./routes/weiboinsert.js');
 var fetchbydate = require('./routes/fetchbydate.js');
+var chartdata = require('./routes/chartdata.js');
+var weibochart = require('./routes/weibochart.js');
 
 var app = express();
 
@@ -29,6 +31,8 @@ app.use('/', routes);
 app.use('/weibos', weibos);
 app.use('/weiboinsert', weiboinsert);
 app.use('/fetchbydate', fetchbydate);
+app.use('/chartdata', chartdata);
+app.use('/weibochart', weibochart);
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
     var err = new Error('Not Found');
