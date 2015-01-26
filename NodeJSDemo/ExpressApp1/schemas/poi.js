@@ -7,20 +7,19 @@ var poiSchema = mongoose.Schema({
     category: Number,
     category_name: String,
     address: String
-}, { collection: 'pois'});
+}, {
+    collection: 'pois'
+});
 
-poiSchema.methods.print = function () {
-    var printName = this.title
-        ? "Title: " + this.title
-        : "This has not title!";
+poiSchema.methods.print = function() {
+    var printName = this.title ? "Title: " + this.title : "This has not title!";
     console.log(printName);
 }
 
 poiSchema.statics = {
-    fetch:function(cb){
+    fetch: function(cb) {
         return this
             .find({})
-            .limit(15)
             .exec(cb)
     }
 }

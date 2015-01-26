@@ -1,19 +1,20 @@
-var map,polyData = [],polygonLayer;
+var map, polyData = [],
+	polygonLayer;
 <!--Leaflet Map API -->
-var map = L.map('map-content').setView([31.24, 121.45], 11);  // 创建Map实例
-var gradient={
-	0.25: "rgb(156,39,176)", 
-	0.55: "rgb(174,57,146)", 
-	0.85: "rgb(200,83,99)", 
-	0.95: "rgb(226,109,55)", 
+var map = L.map('map-content').setView([31.24, 121.45], 11); // 创建Map实例
+var gradient = {
+	0.25: "rgb(156,39,176)",
+	0.55: "rgb(174,57,146)",
+	0.85: "rgb(200,83,99)",
+	0.95: "rgb(226,109,55)",
 	1.0: "rgb(245,127,23)"
 }
 var cfg = {
 	// radius should be small ONLY if scaleRadius is true (or small radius is intended)
 	"radius": .004,
-	"maxOpacity": .7, 
+	"maxOpacity": .7,
 	// scales the radius based on map zoom
-	"scaleRadius": true, 
+	"scaleRadius": true,
 	// if set to false the heatmap uses the global maximum for colorization
 	// if activated: uses the data maximum within the current map boundaries 
 	//   (there will always be a red spot with useLocalExtremas true)
@@ -28,10 +29,10 @@ var cfg = {
 
 // polygon test
 var polyOp = {
-	storke : false,
-	fill : true,
-	fillColor : 'rgb(156,39,176)',
-	fillOpacity : 0.35
+	storke: false,
+	fill: true,
+	fillColor: 'rgb(156,39,176)',
+	fillOpacity: 0.35
 }
 
 
@@ -46,44 +47,46 @@ L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
 heatmapOverlay = new HeatmapOverlay(cfg);
 map.addLayer(heatmapOverlay);
 
-var drawHeatmap = function(date){
+var drawHeatmap = function(date) {
 	$('.progress').show();
 	var postdata = {
-		date : date
+		date: date
 	}
-	$.post( "/fetchbydate",postdata, function(responsedata) {
+	$.post("/fetchbydate", postdata, function(responsedata) {
 		var heatMapDataPoints = [];
-		$(responsedata).each(function(index,val){
+		$(responsedata).each(function(index, val) {
 			if (val.geo) {
 				var heatMapDataPoint = {
-					lng:val.geo.lon,
-					lat:val.geo.lat,
-					count:1
+					lng: val.geo.lon,
+					lat: val.geo.lat,
+					count: 1
 				}
 				heatMapDataPoints.push(heatMapDataPoint);
 			};
 		});
 		//alert(heatMapDataPoints);
-		heatmapOverlay.setData({data:heatMapDataPoints,max:10});
+		heatmapOverlay.setData({
+			data: heatMapDataPoints,
+			max: 10
+		});
 		$('.progress').hide();
 	});
 }
-var selectArea = function(areaLat,areaLng,areaId,areaZoom){
-	map.setView([areaLat,areaLng],areaZoom,
-		{
-			animate:true
-		});	
-	if (areaId==0) {
+var selectArea = function(areaLat, areaLng, areaId, areaZoom) {
+	map.setView([areaLat, areaLng], areaZoom, {
+		animate: true
+	});
+	if (areaId == 0) {
 		map.removeLayer(polygonLayer);
-		polyData=[]
-	}else{
+		polyData = []
+	} else {
 		if (map.hasLayer(polygonLayer)) {
-			polyData = areaData[areaId-1].geometry.rings[0];
+			polyData = areaData[areaId - 1].geometry.rings[0];
 			polygonLayer.setLatLngs(polyData);
 			polygonLayer.redraw();
-		} else{
-			polyData = areaData[areaId-1].geometry.rings[0];
-			polygonLayer = L.polygon(polyData,polyOp);	
+		} else {
+			polyData = areaData[areaId - 1].geometry.rings[0];
+			polygonLayer = L.polygon(polyData, polyOp);
 			map.addLayer(polygonLayer);
 		}
 	}
@@ -91,9 +94,9 @@ var selectArea = function(areaLat,areaLng,areaId,areaZoom){
 
 <!--DateTime pick-->
 $('.form_datetime').datetimepicker({
-	language:  'zh-CN',
+	language: 'zh-CN',
 	weekStart: 1,
-	todayBtn:  1,
+	todayBtn: 1,
 	autoclose: 1,
 	todayHighlight: 1,
 	startView: 2,
@@ -103,16 +106,16 @@ $('.form_datetime').datetimepicker({
 
 $('.form-control').val('2013-1-1');
 
-$('.form_datetime').datetimepicker().on('changeDate', function(ev){
-    selectArea($('.map-area-list>.active>.area-lat').val(),
-    	$('.map-area-list>.active>.area-lng').val(),
-    	$('.map-area-list>.active>.area-id').val(),
-    	$('.map-area-list>.active>.area-zoom').val());
-    drawHeatmap(ev.date);
+$('.form_datetime').datetimepicker().on('changeDate', function(ev) {
+	selectArea($('.map-area-list>.active>.area-lat').val(),
+		$('.map-area-list>.active>.area-lng').val(),
+		$('.map-area-list>.active>.area-id').val(),
+		$('.map-area-list>.active>.area-zoom').val());
+	drawHeatmap(ev.date);
 });
 
 <!--map area item pick-->
-$('.map-area-list li').click(function(){
+$('.map-area-list li').click(function() {
 	$('.map-area-list li').removeClass('active');
 	$(this).addClass('active');
 	var dateSelected = new Date($('.form-control').val());
@@ -124,6 +127,4 @@ $('.map-area-list li').click(function(){
 });
 
 $('.progress').hide();
-drawHeatmap(new Date(2013,0,1));
-
-
+drawHeatmap(new Date(2013, 0, 1));

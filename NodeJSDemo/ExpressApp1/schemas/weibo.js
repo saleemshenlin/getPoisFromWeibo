@@ -1,11 +1,16 @@
 ﻿var mongoose = require('mongoose');
 var weiboSchema = mongoose.Schema({
     created_at: Date,
-    updated_at: { type: Date, default: Date.now },
+    updated_at: {
+        type: Date,
+        default: Date.now
+    },
     weibo_id: String,
     text: String,
     source: String,
-    pic_ids: [{ pic_id: String }],
+    pic_ids: [{
+        pic_id: String
+    }],
     pic_count: Number,
     geo: {
         lat: Number,
@@ -16,7 +21,7 @@ var weiboSchema = mongoose.Schema({
         name: String,
         province: Number,
         city: Number,
-        location : String
+        location: String
     },
     annotations: {
         poiid: String,
@@ -24,29 +29,40 @@ var weiboSchema = mongoose.Schema({
         lat: Number,
         lon: Number
     }
-},{ collection: 'weibo'});
+}, {
+    collection: 'weibo'
+});
 weiboSchema.statics = {
-    fetch: function (cb){
+    fetch: function(cb) {
         return this
             .find({})
             .sort('-created_at')
             .limit(500)
             .exec(cb)
     },
-    findById: function (id, cb){
+    findById: function(id, cb) {
         return this
-            .findOne({weibo_id:id})
+            .findOne({
+                weibo_id: id
+            })
             .exec(cb)
     },
-    fetchDate: function(startdate,enddate,cb){
+    fetchDate: function(startdate, enddate, cb) {
         return this
-            .find({'created_at':{$gte:startdate,$lte:enddate}})
+            .find({
+                'created_at': {
+                    $gte: startdate,
+                    $lte: enddate
+                }
+            })
             .sort('-created_at')
             .exec(cb)
     },
-    fetchByAnnoID: function (annoid, cb){
+    fetchByAnnoID: function(annoid, cb) {
         return this
-            .find({'annotations.poiid': annoid})
+            .find({
+                'annotations.poiid': annoid
+            })
             .sort('-created_at')
             .limit(1)
             .exec(cb)

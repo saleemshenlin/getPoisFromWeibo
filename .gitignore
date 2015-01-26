@@ -187,3 +187,7 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+# npm install files
+.ntvs_analysis.dat
+.ntvs_analysis.dat.tmp
