@@ -15,7 +15,7 @@ $(function() {
                 text: ''
             },
             xAxis: [{
-                categories: ['周一','周二','周三','周四','周五','周六','周日'],
+                categories: ['周一', '周二', '周三', '周四', '周五', '周六', '周日'],
                 tickInterval: 1,
                 labels: {
                     style: {
@@ -92,6 +92,8 @@ $(function() {
         });
     }
     $.post("/chartdata", function(responsedata) {
+        var total = 0,
+            pictotal = 0;
         var chartData = {
             date: [],
             pics: [],
@@ -101,7 +103,11 @@ $(function() {
             chartData.date.push(val._id);
             chartData.pics.push(val.value.pics);
             chartData.count.push(val.value.count);
+            total += parseInt(val.value.count);
+            pictotal += parseInt(val.value.pics);
         });
         drawWeiboCountByMonth(chartData);
+        alert('total:' + total+ ';pics:' + pictotal)
+        alert('total:' + total / chartData.count.length + ';pics:' + pictotal / chartData.count.length)
     });
 });

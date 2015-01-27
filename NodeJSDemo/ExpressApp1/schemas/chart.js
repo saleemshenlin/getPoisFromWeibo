@@ -11,7 +11,7 @@ var chartSchema = mongoose.Schema({
         time: Date
     }
 }, {
-    collection: 'WeiboCountWeekend'
+    collection: 'WeiboCountByMonth'
 });
 
 

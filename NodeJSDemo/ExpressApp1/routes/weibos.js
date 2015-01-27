@@ -2,7 +2,7 @@
 var mongoose = require('mongoose');
 var Weibo = require('../models/weibo.js');
 var router = express.Router();
-mongoose.connect('mongodb://192.168.199.111/weibo');
+mongoose.connect('mongodb://59.78.138.14/weibo');
 
 /* GET weibo list page. */
 router.get('/', function(req, res) {
