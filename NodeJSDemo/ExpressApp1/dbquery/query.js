@@ -140,14 +140,14 @@ db.weibo.mapReduce(map, reduce, {
 
 //weibo user
 var map = function() {
-	var user = this.user.id;
+	var user = '001-' + this.value.province + '-' + this.value.city;
 	//var yearMonth = this.created_at.getDay();
 	var value = {
 		count: 1,
-		name: this.user.name,
-		province: this.user.province,
-		city: this.user.city,
-		location: this.user.location
+		name: this.value.name,
+		province: this.value.province,
+		city: this.value.city,
+		location: this.value.location
 	};
 	emit(user, value);
 }
@@ -175,19 +175,18 @@ var reduce = function(key, countObjVals) {
 }
 
 var query = {
-	created_at: {
-		$gte: new Date(2012, 8, 24),
-		$lte: new Date(2012, 9, 15)
+	'user.province': {
+		$ne: 31
 	}
 }
 
 var finalize = function(key, reducedVal) {
 	reducedVal.time = new Date(parseInt(reducedVal.name), parseInt(reducedVal.province), parseInt(reducedVal.city))
 	return reducedVal;
-
 };
-db.weibo.mapReduce(map, reduce, {
-	query: query,
-	out: "WeiboCountWeekend",
-	finalize: finalize
+
+db.WeiboCountUser.mapReduce(map, reduce, {
+	//query: query,
+	out: "WeiboCountUserPlace",
+	//finalize: finalize
 })
